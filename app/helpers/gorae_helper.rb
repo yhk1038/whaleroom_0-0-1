@@ -1,0 +1,2 @@
+module GoraeHelper
+end
