@@ -1,3 +1,111 @@
 // Place all the styles related to the gorae controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+    // 로그인 css
+        .else_sign_match_btn{
+            font-size:18px; 
+            text-decoration: underline; 
+            /*font-weight: bold; */
+            cursor:pointer;
+        }
+        .login_for_what{
+            margin-bottom:10px;
+            width:100%; 
+            display: block; 
+            color: #fff; 
+            text-align: center; 
+            font-size: 17px; 
+            padding: 17px 0 16px; 
+            border:none;
+            cursor:pointer;
+        }
+        .form-control_f{
+            display: block;
+            height: 34px;
+            padding: 6px 12px;
+            line-height: 1.42857143;
+            color: rgb(71, 90, 73);
+            border-radius: 4px;
+            width:100%;
+            font-size: 16px; 
+            font-weight:bold; 
+            box-shadow: initial; 
+            background: none; 
+            border: none; 
+            border-bottom: 1px solid rgb(125, 125, 125);
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+            -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;   
+        }
+        
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: rgba(85, 85, 85, 0.45);
+        }
+        ::-moz-placeholder { /* Firefox 19+ */
+        /*  color: pink;*/
+        }
+        ::-ms-input-placeholder { /* IE 10+ */
+        /*  color: pink;*/
+        }
+        ::-moz-placeholder { /* Firefox 18- */
+        /*  color: pink;*/
+        }
+        textarea:-moz-placeholder, input:-moz-placeholder{color:blue;} /* 파이어폭스 전용 속성 */
+    // 로그인 end
+    
+    
+    // 네비바 css
+        #navbar_header{
+            position: fixed;
+            width: 100%;
+            left: 0;
+            background-repeat: repeat-x;
+            // border-bottom: 1px solid #c8c8c8;
+            z-index: 100;
+            background-color: #00A1FF;
+            -webkit-box-shadow: rgba(0,0,0,0.1) 0 1px 2px;
+            -moz-box-shadow: rgba(0,0,0,0.1) 0 1px 2px;
+            box-shadow: rgba(0,0,0,0.1) 0 1px 2px;
+            -webkit-transition-property: all;
+            -moz-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.5s;
+            -moz-transition-duration: 0.5s;
+            -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+            transform: translateZ(0);
+            -webkit-transform: translateZ(0);
+        }
+        
+        .navbar_left_btn li a{
+            color:#fff;
+        }
+    // 네비바 end
+    
+    // footer css
+        // 로그인 footer
+            #footer_ul > li {
+                direction: rtl;
+                color:rgba(255, 255, 255, 0.25);
+                float:left;
+                width:10%;
+            }
+            #footer_ul > li button {
+                background: #3b3a3c;
+                border: none;
+                width: 85%;
+                font-size: 15px;
+                padding: 10% 0%;
+                margin: 0px 10px;
+            }
+        // 로그인 footer end
+      
+        // 메인 footer
+            //
+        // 메인 footer end
+    // footer end

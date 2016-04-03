@@ -12,4 +12,8 @@ class GoraeController < ApplicationController
               ].sample
     #@bg_img = "http://i.blogs.es/70ab15/karaoke-apps-i1/650_1200.jpg"
   end
+  
+  def main
+    #render :layout => false
+  end
 end
