@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html style="height:100%;">
+<html style="height:100%;" lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
   <title>고래방 !</title>
   <%#= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%#= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%#= csrf_meta_tags %>
   
+  
+  <!--아이콘 및 파비콘 menifest-->
   <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png">
@@ -21,6 +29,8 @@
   <link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="/img/favicon/manifest.json">
   <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  
+  
   <meta name="apple-mobile-web-app-title" content="Gorebang">
   <meta name="application-name" content="Gorebang">
   <meta name="msapplication-TileColor" content="#da532c">
@@ -36,13 +46,16 @@
   <link rel="stylesheet" href="/css/1200-.css" media="all and (min-width:1200px)">
   <link rel="stylesheet" href="/css/all.css">
   
-  <meta charset="utf-8">
+  
+  
+  
    <!-- 합쳐지고 최소화된 최신 CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
   <!-- 부가적인 테마 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+  <link href="../css/half-slider.css" rel="stylesheet">
+  
   <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <!-- 드롭바용 제이커리 -->
@@ -56,7 +69,7 @@
 <body style="/*background-image:url(<%#= @bgurl %>);*/ font-family: 'KoPub Dotum'; font-style: normal; background-image:url(<%= @bg_img %>); background-size:cover; height:100%;">
   <div style="background: rgba(0, 0, 0, 0.5); height:100%;">
 
-<%= yield %>
+    <%= yield %>
 
   </div>
 </body>
