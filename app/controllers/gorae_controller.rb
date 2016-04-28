@@ -16,4 +16,14 @@ class GoraeController < ApplicationController
   def main
     #render :layout => false
   end
+  
+  def login
+    
+    redirect_to '/gorae/main2'
+  end
+  
+  def main2
+    
+    render layout: "../gorae_layouts/application.html.erb"
+  end
 end

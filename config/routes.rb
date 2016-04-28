@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'song/song_save'
+
+  get 'song/song_delete'
+
+  get 'admin/index'
+
+  get 'crawl/tj_monthly_new'
+
+  get 'crawl/tj_monthly_popular'
+
+  get 'crawl/tj_daily_popular'
+
   root 'gorae#entering'
   
   match "/:controller(/:action(/:id))", :via => [:post, :get]

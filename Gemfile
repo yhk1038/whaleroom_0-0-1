@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'awesome_print'
+gem 'seed_dump'
+gem 'nokogiri'
 gem 'tzinfo-data'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
