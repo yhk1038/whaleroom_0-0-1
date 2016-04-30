@@ -1,3 +1,6 @@
+Administer.create!([
+  {username: "spb829", email: "spb828@naver.com", password: "p1523"}
+])
 DailyTjPopularRank.create!([
   {symd: "20160401", eymd: "20160416", song_rank: 1, song_num: 46009, song_title: "어디에도", song_singer: "MC THE MAX"},
   {symd: "20160401", eymd: "20160416", song_rank: 2, song_num: 45592, song_title: "걱정말아요그대(응답하라1988 OST)", song_singer: "이적"},
