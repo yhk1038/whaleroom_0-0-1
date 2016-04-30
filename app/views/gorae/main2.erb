@@ -172,74 +172,74 @@
             <ol class="sections-wrapper">
                 <li id="boxoffice-section" class="boxoffice responsive-mask section">
                     <h3 class="title" style="float:left;">4월 3째주</h3>
-                    <h3 id="chart_btn_gorae_today" class="title" style="float:left; cursor:pointer;">고래방 CHART</h3>
-                    <h3 id="chart_btn_top100_today" class="title" style="float:left; cursor:pointer; opacity:0.4; font-size:18px;">노래방 인기 Top100</h3>
-                    <h3 id="chart_btn_ginnie_today" class="title" style="float:left; cursor:pointer; opacity:0.4; font-size:18px;">지니 CHART</h3>
+                    <h3 id="tab_btn_gorae_today" class="title" style="float:left; cursor:pointer;">고래방추천 테마</h3>
+                    <h3 id="tab_btn_top100_today" class="title" style="float:left; cursor:pointer; opacity:0.4; font-size:18px;">노래방 인기 Top100</h3>
+                    <h3 id="tab_btn_ginnie_today" class="title" style="float:left; cursor:pointer; opacity:0.4; font-size:18px;">내 음역대 측정</h3>
                     <style>
-                        #chart_btn_gorae_today:hover, #chart_btn_gorae_today:active {
+                        #tab_btn_gorae_today:hover, #tab_btn_gorae_today:active {
                             color:#000;
                         }
-                        /*#chart_btn_top100_today:hover, #chart_btn_top100_today:active*/
-                        /*#chart_btn_ginnie_today:hover, #chart_btn_ginnie_today:active*/
+                        /*#tab_btn_top100_today:hover, #tab_btn_top100_today:active*/
+                        /*#tab_btn_ginnie_today:hover, #tab_btn_ginnie_today:active*/
                     </style>
                     <script>
-                        $( "#chart_btn_gorae_today" ).click(function() {
+                        $( "#tab_btn_gorae_today" ).click(function() {
                           $( "#chart_gorae_today" ).show();
-                          $( "#chart_btn_gorae_today" ).animate({
+                          $( "#tab_btn_gorae_today" ).animate({
                              opacity: 1,
                              fontSize: "20px"
                           });
                           
                           $( "#chart_top100_today" ).hide();
-                          $( "#chart_btn_top100_today" ).animate({
+                          $( "#tab_btn_top100_today" ).animate({
                              opacity: 0.4,
                              fontSize: "18px"
                           });
                           
                           $( "#chart_ginnie_today" ).hide();
-                          $( "#chart_btn_ginnie_today" ).animate({
+                          $( "#tab_btn_ginnie_today" ).animate({
                              opacity: 0.4,
                              fontSize: "18px"
                           });
                         });
                         
                         
-                        $( "#chart_btn_top100_today" ).click(function() {
+                        $( "#tab_btn_top100_today" ).click(function() {
                           $( "#chart_top100_today" ).show();
-                          $( "#chart_btn_top100_today" ).animate({
+                          $( "#tab_btn_top100_today" ).animate({
                              opacity: 1,
                              fontSize: "20px"
                           });
                         
                           $( "#chart_gorae_today" ).hide();
-                          $( "#chart_btn_gorae_today" ).animate({
+                          $( "#tab_btn_gorae_today" ).animate({
                              opacity: 0.4,
                              fontSize: "18px"
                           });
                         
                           $( "#chart_ginnie_today" ).hide();
-                          $( "#chart_btn_ginnie_today" ).animate({
+                          $( "#tab_btn_ginnie_today" ).animate({
                              opacity: 0.4,
                              fontSize: "18px"
                           });
                         });
                         
                         
-                        $( "#chart_btn_ginnie_today" ).click(function() {
+                        $( "#tab_btn_ginnie_today" ).click(function() {
                           $( "#chart_ginnie_today" ).show();
-                          $( "#chart_btn_ginnie_today" ).animate({
+                          $( "#tab_btn_ginnie_today" ).animate({
                              opacity: 1,
                              fontSize: "20px"
                           });
                         
                           $( "#chart_gorae_today" ).hide();
-                          $( "#chart_btn_gorae_today" ).animate({
+                          $( "#tab_btn_gorae_today" ).animate({
                              opacity: 0.4,
                              fontSize: "18px"
                           });
                         
                           $( "#chart_top100_today" ).hide();
-                          $( "#chart_btn_top100_today" ).animate({
+                          $( "#tab_btn_top100_today" ).animate({
                              opacity: 0.4,
                              fontSize: "18px"
                           });
