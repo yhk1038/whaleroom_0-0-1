@@ -1,5 +1,6 @@
 Administer.create!([
-  {username: "spb829", email: "spb828@naver.com", password: "p1523"}
+  {username: "김용현", email: "yhk1038@hanmail.net", password: "ks0352ks"},
+  {username: "hyebinni", email: "bkwkduswk@naver.com", password: "123456789"}
 ])
 DailyTjPopularRank.create!([
   {symd: "20160401", eymd: "20160416", song_rank: 1, song_num: 46009, song_title: "어디에도", song_singer: "MC THE MAX"},
@@ -116,5 +117,7 @@ Song.create!([
   {title: "하늘 바라기(Feat.하림)", artist: "정은지", lowkey: "A3#", highkey: "D5#", tjnum: "46307", gininum: "86160555"},
   {title: "Rain", artist: "태연", lowkey: "G3#", highkey: "D5#", tjnum: "46049", gininum: "85888427"},
   {title: "MY STAR", artist: "이하이", lowkey: "C4", highkey: "F5", tjnum: "46319", gininum: "86164255"},
-  {title: "손 잡아 줘요", artist: "이하이", lowkey: "G3", highkey: "A4#", tjnum: "46164", gininum: "86014526"}
+  {title: "손 잡아 줘요", artist: "이하이", lowkey: "G3", highkey: "A4#", tjnum: "46164", gininum: "86014526"},
+  {title: "여수밤바다", artist: "버스커버스커", lowkey: "B3", highkey: "F5#", tjnum: "http://www.tjmedia.co.kr/tjsong/song_search_list.asp?strType=0&strText=여수밤바다&strCond=0&strSize01=100&strSize02=15&strSize03=15&strSize04=15&strSize05=15", gininum: "http://www.genie.co.kr/search/searchMain?query=여수밤바다&x=0&y=0"},
+  {title: "보고싶다", artist: "김범수", lowkey: "C4", highkey: "C6", tjnum: "http://www.tjmedia.co.kr/tjsong/song_search_list.asp?strType=0&strText=보고싶다&strCond=0&strSize01=100&strSize02=15&strSize03=15&strSize04=15&strSize05=15", gininum: "http://www.genie.co.kr/search/searchMain?query=보고싶다&x=0&y=0"}
 ])
