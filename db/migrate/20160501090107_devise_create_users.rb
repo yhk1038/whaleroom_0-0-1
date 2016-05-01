@@ -2,7 +2,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
   def change
     create_table :users do |t|
       # 추가한 것들(이름, 닉네임)
-      t.string :name,               null:false, default: ""
+      t.string :name,               null: false, default: ""
       t.string :nickname,           null: false, default: ""
 
       ## Database authenticatable

@@ -11,6 +11,13 @@ class GoraeController < ApplicationController
       "http://groupon.co.id/images/picpromobig/5f0f5e5f33945135b874349cfbed4fb976429.jpg"
     ].sample
     #@bg_img = "http://i.blogs.es/70ab15/karaoke-apps-i1/650_1200.jpg"
+
+    # 로그인 되있으면 main2로 가고 로그인 안되있으면 sign_in으로
+    if user_signed_in?
+      redirect_to '/gorae/main2'
+    else
+      redirect_to '/users/sign_in'
+    end
   end
 
   def main
@@ -18,13 +25,11 @@ class GoraeController < ApplicationController
   end
 
   def login
-    form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
-      f.email_field = params[:email]
-      f.password_field = params[:pwd]
-      f.submit
-    end
+    # 비밀번호 일치하면 main2로
+    redirect_to '/gorae/main2'
 
-    # redirect_to '/gorae/main2'
+    # 비밀번호 안맞으면
+    # 다시 entering으로
   end
 
   def main2
