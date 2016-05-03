@@ -1,96 +1,96 @@
 <div id="header" class="">
-    <div class="for-popup-scroll-area-margin">
-        <div class="inner responsive-mask">
-            <ul class="gnb clearfix">
-                <li class="navi-item home on">
-                    <a href="/">
-                        <img src="https://d12hfz37g51hrt.cloudfront.net/assets/bi/icon_40-bbbbf35a3c9f8585a655f18925488424.png" width="30" height="30">
-                    </a>
-                    <span class="highlight"></span>
-                </li>
-                <li class="navi-item boxoffice ">
-                    <a href="/boxoffice">고래방 CHART</a>
-                    <span class="highlight"></span>
-                </li>
-                <li class="navi-item genre ">
-                    <!--<a href="/recommendation">추천음악</a>-->
-                    <a href="/recommendation">노래방 인기 Top100</a>
-                    <span class="highlight"></span>
-                </li>
-                <li class="navi-item evalmore ">
-                    <a href="/evalmore">음역대 측정하기</a>
-                    <span class="highlight"></span>
-                </li>
-                <li class="navi-item evalmore ">
-                    <a href="/evalmore">마이 리스트</a>
-                    <span class="highlight"></span>
-                </li>
-                <li class="navi-item evalmore ">
-                    <a href="/admin/admin_login">팀&nbsp;&nbsp;4D</a>
-                    <span class="highlight"></span>
-                </li>
-            </ul>
+  <div class="for-popup-scroll-area-margin">
+    <div class="inner responsive-mask">
+      <ul class="gnb clearfix">
+        <li class="navi-item home on">
+          <a href="/">
+            <img src="https://d12hfz37g51hrt.cloudfront.net/assets/bi/icon_40-bbbbf35a3c9f8585a655f18925488424.png" width="30" height="30">
+          </a>
+          <span class="highlight"></span>
+        </li>
+        <li class="navi-item boxoffice ">
+          <a href="/boxoffice">고래방 CHART</a>
+          <span class="highlight"></span>
+        </li>
+        <li class="navi-item genre ">
+          <!--<a href="/recommendation">추천음악</a>-->
+          <a href="/recommendation">노래방 인기 Top100</a>
+          <span class="highlight"></span>
+        </li>
+        <li class="navi-item evalmore ">
+          <a href="/evalmore">음역대 측정하기</a>
+          <span class="highlight"></span>
+        </li>
+        <li class="navi-item evalmore ">
+          <a href="/evalmore">마이 리스트</a>
+          <span class="highlight"></span>
+        </li>
+        <li class="navi-item evalmore ">
+          <a href="/admin/admin_login">팀&nbsp;&nbsp;4D</a>
+          <span class="highlight"></span>
+        </li>
+      </ul>
 
-            <!-- 서치 폼 -->
-            <form accept-charset="UTF-8" action="/search/search" id="search-form" method="get">
-                <div class="input-wrapper">
-                    <input id="input-query" name="query" type="search" autocomplete="off" class="ui-autocomplete-input">
-                    <span id="search-icon"></span>
-                </div>
-            </form>
-
-            <div id="gnb-right-menu" class="right-menu">
-                <div class="menu partner ">
-                    <img class="thumbnail partner" src='' width="30" height="30" onerror="utils.loadDefaultImg(this, 'thumb');">
-                    <span class="movie-partner-btn">음악친구 설정하기</span>
-                    <span class="highlight"></span>
-                    <div class="dropdown">
-                        <span class="title">무비파트너 설정</span>
-                        <div class="thumbnails">
-                            <img class="thumbnail my" src="https://d12hfz37g51hrt.cloudfront.net/assets/default/user/photo_small-eb39055bd595b4f8b1a0d54e41ecf088.jpg" width="50" height="50" onerror="utils.loadDefaultImg(this, 'thumb');">
-                            <img class="thumbnail partner" src="" width="50" height="50" onerror="utils.loadDefaultImg(this, 'thumb');">
-                            <span class="movie-partner-btn">음악친구 설정하기</span>
-                        </div>
-                        <p class="desc prevent-delete">
-
-                        </p>
-                        <p class="desc induce-register">
-                            무비파트너를 설정하세요.<br>
-                            취향 매칭율과 친구의 예상 별점을 알려드려요. :)
-                        </p>
-                        <button class="btn">
-                            설정하기
-                        </button>
-                    </div>
-                </div>
-                <div class="menu my">
-                    <a href="/v2/users/mHLmUJXckMA1" class="name">
-                        <%= current_user.name %>
-                        <img class="thumbnail" src="https://d12hfz37g51hrt.cloudfront.net/assets/default/user/photo_small-eb39055bd595b4f8b1a0d54e41ecf088.jpg" width="30" height="30" onerror="utils.loadDefaultImg(this, 'thumb');">
-                    </a>
-                    <span class="highlight"></span>
-                    <div class="dropdown">
-                        <ul>
-                            <li>
-                                <a href="/v2/users/mHLmUJXckMA1/wishlist">음악보관함</a>
-                                <span class="count">2</span>
-                            </li>
-                            <li>
-                                <a href="/giftbox">선물함</a>
-                            </li>
-                            <li class="divide-line">
-                                <a href="#" onclick="InviteFriend.popupInviteFriend(event);">친구초대</a>
-                            </li>
-                            <li class="divide-line">
-                                <a href="#" class="setting">설정</a>
-                            </li>
-                            <li>
-                                <a href="/users/sign_out">로그아웃</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <!-- 서치 폼 -->
+      <form accept-charset="UTF-8" action="/search/search" id="search-form" method="get">
+        <div class="input-wrapper">
+          <input id="input-query" name="query" type="search" autocomplete="off" class="ui-autocomplete-input">
+          <span id="search-icon"></span>
         </div>
+      </form>
+
+      <div id="gnb-right-menu" class="right-menu">
+        <div class="menu partner ">
+          <img class="thumbnail partner" src='' width="30" height="30" onerror="utils.loadDefaultImg(this, 'thumb');">
+          <span class="movie-partner-btn">음악친구 설정하기</span>
+          <span class="highlight"></span>
+          <div class="dropdown">
+            <span class="title">무비파트너 설정</span>
+            <div class="thumbnails">
+              <img class="thumbnail my" src="https://d12hfz37g51hrt.cloudfront.net/assets/default/user/photo_small-eb39055bd595b4f8b1a0d54e41ecf088.jpg" width="50" height="50" onerror="utils.loadDefaultImg(this, 'thumb');">
+              <img class="thumbnail partner" src="" width="50" height="50" onerror="utils.loadDefaultImg(this, 'thumb');">
+              <span class="movie-partner-btn">음악친구 설정하기</span>
+            </div>
+            <p class="desc prevent-delete">
+
+            </p>
+            <p class="desc induce-register">
+              무비파트너를 설정하세요.<br>
+              취향 매칭율과 친구의 예상 별점을 알려드려요. :)
+            </p>
+            <button class="btn">
+              설정하기
+            </button>
+          </div>
+        </div>
+        <div class="menu my">
+          <a href="/v2/users/mHLmUJXckMA1" class="name">
+            <%= current_user.name %>
+            <img class="thumbnail" src="https://d12hfz37g51hrt.cloudfront.net/assets/default/user/photo_small-eb39055bd595b4f8b1a0d54e41ecf088.jpg" width="30" height="30" onerror="utils.loadDefaultImg(this, 'thumb');">
+          </a>
+          <span class="highlight"></span>
+          <div class="dropdown">
+            <ul>
+              <li>
+                <a href="/v2/users/mHLmUJXckMA1/wishlist">음악보관함</a>
+                <span class="count">2</span>
+              </li>
+              <li>
+                <a href="/giftbox">선물함</a>
+              </li>
+              <li class="divide-line">
+                <a href="#" onclick="InviteFriend.popupInviteFriend(event);">친구초대</a>
+              </li>
+              <li class="divide-line">
+                <a href="#" class="setting">설정</a>
+              </li>
+              <li>
+                <a href="/users/sign_out">로그아웃</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
