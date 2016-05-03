@@ -2,37 +2,38 @@
     <div class="for-popup-scroll-area-margin">
         <div class="inner responsive-mask">
             <ul class="gnb clearfix">
-                <li class="navi-item home on">
-                    <a href="/">
-                        <img src="https://d12hfz37g51hrt.cloudfront.net/assets/bi/icon_40-bbbbf35a3c9f8585a655f18925488424.png" width="30" height="30">
+                <li class="navi-item home <%= "on" if params[:action] == "main2" || params[:action] == "" %>">
+                    <a href="/gorae/main2">
+                        <!--<img src="" width="30" height="30">-->
+                        <%= image_tag "gorae/logo_goraemic_roundzoomin.png", width: "30", height: "30" %>
                     </a>
                     <span class="highlight"></span>
                 </li>
-                <li class="navi-item boxoffice ">
-                    <a href="/boxoffice">고래방 CHART</a>
+                <li class="navi-item boxoffice <%= "on" if params[:action] == "rank" %>">
+                    <a href="/gorae/rank">고래방 CHART</a>
                     <span class="highlight"></span>
                 </li>
-                <li class="navi-item genre ">
+                <li class="navi-item genre <%= "on" if params[:action] == "recommendation" %>">
                     <!--<a href="/recommendation">추천음악</a>-->
-                    <a href="/recommendation">노래방 인기 Top100</a>
+                    <a href="/gorae/recommendation">TODAY 추천곡</a>
                     <span class="highlight"></span>
                 </li>
-                <li class="navi-item evalmore ">
-                    <a href="/evalmore">음역대 측정하기</a>
+                <li class="navi-item evalmore <%= "on" if params[:action] == "evalmore" %>">
+                    <a href="/evalmore">불러봤더니 어때</a>
                     <span class="highlight"></span>
                 </li>
-                <li class="navi-item evalmore ">
-                    <a href="/evalmore">마이 리스트</a>
+                <li class="navi-item mylist <%= "on" if params[:action] == "mylist" %>">
+                    <a href="/gorae/mylist">마이 리스트</a>
                     <span class="highlight"></span>
                 </li>
-                <li class="navi-item evalmore ">
+                <li class="navi-item evalmore">
                     <a href="/admin/admin_login">팀&nbsp;&nbsp;4D</a>
                     <span class="highlight"></span>
                 </li>
             </ul>
             
-            서치 폼과 
-            <form accept-charset="UTF-8" action="/search/search" id="search-form" method="get">
+            <!--서치 폼-->
+            <form accept-charset="UTF-8" action="/gorae/search" id="search-form" method="get">
                 <div class="input-wrapper">
                     <input id="input-query" name="query" type="search" autocomplete="off" class="ui-autocomplete-input">
                     <span id="search-icon"></span>
@@ -72,7 +73,7 @@
                     <div class="dropdown">
                         <ul>
                             <li>
-                                <a href="/v2/users/mHLmUJXckMA1/wishlist">음악보관함</a>
+                                <a href="/gorae/mylist">음악보관함</a>
                                 <span class="count">2</span>
                             </li>
                             <li>

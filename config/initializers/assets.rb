@@ -15,6 +15,11 @@ Rails.application.config.assets.precompile += %w( song.css )
 Rails.application.config.assets.precompile += %w( 4d_info/team0.css )
 Rails.application.config.assets.precompile += %w( 4d_info/team1.css )
 Rails.application.config.assets.precompile += %w( 4d_info/team2.css )
+
 Rails.application.config.assets.precompile += %w( gorae/home.css )
+Rails.application.config.assets.precompile += %w( gorae/search.css )
+Rails.application.config.assets.precompile += %w( gorae/rank.css )
+Rails.application.config.assets.precompile += %w( gorae/recommendation.css )
+Rails.application.config.assets.precompile += %w( gorae/users.css )
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )

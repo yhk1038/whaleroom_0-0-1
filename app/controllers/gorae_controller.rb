@@ -26,4 +26,30 @@ class GoraeController < ApplicationController
     
     render layout: "../gorae_layouts/application.html.erb"
   end
+  
+  def search
+    if params[:query].nil? 
+      @query = "검색어를 찾을 수 없습니다."
+    else
+      @query = "검색어를 찾을 수 없습니다." if params[:query].length == 0
+      @query = params[:query] if params[:query].length != 0
+    end
+    
+    render layout: "../gorae_layouts/application.html.erb"
+  end
+  
+  def rank
+    
+    render layout: "../gorae_layouts/application.html.erb"
+  end
+  
+  def recommendation
+    @action = params[:action]
+    render layout: "../gorae_layouts/application.html.erb"
+  end
+  
+  def mylist
+    
+    render layout: "../gorae_layouts/application.html.erb"
+  end
 end

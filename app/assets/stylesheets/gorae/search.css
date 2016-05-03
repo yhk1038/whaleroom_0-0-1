@@ -1,4 +1,3 @@
-/*1/0*/
 @charset "UTF-8";html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
 	margin:0;
 	padding:0;
@@ -44,11 +43,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,su
 	display:block;
 }
 
-.service_logo-sprite,.movie-card.stillcut-type .vods .vod.gomtv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.hoppin .price .vendor-logo,.movie-card.stillcut-type .vods .vod.tving .price .vendor-logo,.movie-card.stillcut-type .vods .vod.googleplay .price .vendor-logo,.movie-card.stillcut-type .vods .vod.skbbtv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.skbbtv.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.lguplustvg .price .vendor-logo,.movie-card.stillcut-type .vods .vod.lguplushdtv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.lguplustvg.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.lguplushdtv.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.hellotv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.hellotv.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.skylife .price .vendor-logo,.movie-card.stillcut-type .vods .vod.skylife.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.homechoice .price .vendor-logo,.movie-card.stillcut-type .vods .vod.jeulgam .price .vendor-logo,.movie-card.stillcut-type .vods .vod.nstore .price .vendor-logo,.movie-card.stillcut-type .vods .vod.tstore .price .vendor-logo,.movie-card.stillcut-type .vods .vod.ollehtv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.ollehmobile .price .vendor-logo,.movie-card.stillcut-type .vods .vod.youtube .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episode .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodetwo .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodethree .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodefour .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodefive .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodesix .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodeseven .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodeeight .price .vendor-logo,.movie-detail .vod-area .vod-item.gomtv .price .vendor-logo,.movie-detail .vod-area .vod-item.hoppin .price .vendor-logo,.movie-detail .vod-area .vod-item.tving .price .vendor-logo,.movie-detail .vod-area .vod-item.googleplay .price .vendor-logo,.movie-detail .vod-area .vod-item.skbbtv .price .vendor-logo,.movie-detail .vod-area .vod-item.skbbtv.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.lguplustvg .price .vendor-logo,.movie-detail .vod-area .vod-item.lguplushdtv .price .vendor-logo,.movie-detail .vod-area .vod-item.lguplustvg.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.lguplushdtv.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.hellotv .price .vendor-logo,.movie-detail .vod-area .vod-item.hellotv.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.skylife .price .vendor-logo,.movie-detail .vod-area .vod-item.skylife.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.homechoice .price .vendor-logo,.movie-detail .vod-area .vod-item.jeulgam .price .vendor-logo,.movie-detail .vod-area .vod-item.nstore .price .vendor-logo,.movie-detail .vod-area .vod-item.tstore .price .vendor-logo,.movie-detail .vod-area .vod-item.ollehtv .price .vendor-logo,.movie-detail .vod-area .vod-item.ollehmobile .price .vendor-logo,.movie-detail .vod-area .vod-item.youtube .price .vendor-logo,.movie-detail .vod-area .vod-item.episode .price .vendor-logo,.movie-detail .vod-area .vod-item.episodetwo .price .vendor-logo,.movie-detail .vod-area .vod-item.episodethree .price .vendor-logo,.movie-detail .vod-area .vod-item.episodefour .price .vendor-logo,.movie-detail .vod-area .vod-item.episodefive .price .vendor-logo,.movie-detail .vod-area .vod-item.episodesix .price .vendor-logo,.movie-detail .vod-area .vod-item.episodeseven .price .vendor-logo,.movie-detail .vod-area .vod-item.episodeeight .price .vendor-logo,.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.gomtv .name,.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.hoppin .name,.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.googleplay .name,.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.tving .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.ollehtv .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.skylife .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.skbbtv .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.lguplustvg .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.hellotv .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.ollehtv .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.skylife .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.skbbtv .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.lguplustvg .name,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.hellotv .name,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.lotte_id a,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.megabox_id a,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.gomtv .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.hoppin .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.tving .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.googleplay .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skbbtv .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplustvg .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplushdtv .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.hellotv .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skylife .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.homechoice .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.jeulgam .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.nstore .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.tstore .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.ollehtv .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.ollehmobile .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.youtube .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episode .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodetwo .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodethree .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodefour .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodefive .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodesix .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodeseven .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodeeight .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper.gomtv .watch-link .icon,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper.googleplay .watch-link .icon,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper.hoppin .watch-link .icon,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper.tving .watch-link .icon{
+.service_logo-sprite,.movie-card.stillcut-type .vods .vod.gomtv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.hoppin .price .vendor-logo,.movie-card.stillcut-type .vods .vod.tving .price .vendor-logo,.movie-card.stillcut-type .vods .vod.googleplay .price .vendor-logo,.movie-card.stillcut-type .vods .vod.skbbtv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.skbbtv.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.lguplustvg .price .vendor-logo,.movie-card.stillcut-type .vods .vod.lguplushdtv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.lguplustvg.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.lguplushdtv.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.hellotv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.hellotv.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.skylife .price .vendor-logo,.movie-card.stillcut-type .vods .vod.skylife.home-cover-vendor .price .vendor-logo,.movie-card.stillcut-type .vods .vod.homechoice .price .vendor-logo,.movie-card.stillcut-type .vods .vod.jeulgam .price .vendor-logo,.movie-card.stillcut-type .vods .vod.nstore .price .vendor-logo,.movie-card.stillcut-type .vods .vod.tstore .price .vendor-logo,.movie-card.stillcut-type .vods .vod.ollehtv .price .vendor-logo,.movie-card.stillcut-type .vods .vod.ollehmobile .price .vendor-logo,.movie-card.stillcut-type .vods .vod.youtube .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episode .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodetwo .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodethree .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodefour .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodefive .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodesix .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodeseven .price .vendor-logo,.movie-card.stillcut-type .vods .vod.episodeeight .price .vendor-logo,.movie-detail .vod-area .vod-item.gomtv .price .vendor-logo,.movie-detail .vod-area .vod-item.hoppin .price .vendor-logo,.movie-detail .vod-area .vod-item.tving .price .vendor-logo,.movie-detail .vod-area .vod-item.googleplay .price .vendor-logo,.movie-detail .vod-area .vod-item.skbbtv .price .vendor-logo,.movie-detail .vod-area .vod-item.skbbtv.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.lguplustvg .price .vendor-logo,.movie-detail .vod-area .vod-item.lguplushdtv .price .vendor-logo,.movie-detail .vod-area .vod-item.lguplustvg.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.lguplushdtv.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.hellotv .price .vendor-logo,.movie-detail .vod-area .vod-item.hellotv.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.skylife .price .vendor-logo,.movie-detail .vod-area .vod-item.skylife.home-cover-vendor .price .vendor-logo,.movie-detail .vod-area .vod-item.homechoice .price .vendor-logo,.movie-detail .vod-area .vod-item.jeulgam .price .vendor-logo,.movie-detail .vod-area .vod-item.nstore .price .vendor-logo,.movie-detail .vod-area .vod-item.tstore .price .vendor-logo,.movie-detail .vod-area .vod-item.ollehtv .price .vendor-logo,.movie-detail .vod-area .vod-item.ollehmobile .price .vendor-logo,.movie-detail .vod-area .vod-item.youtube .price .vendor-logo,.movie-detail .vod-area .vod-item.episode .price .vendor-logo,.movie-detail .vod-area .vod-item.episodetwo .price .vendor-logo,.movie-detail .vod-area .vod-item.episodethree .price .vendor-logo,.movie-detail .vod-area .vod-item.episodefour .price .vendor-logo,.movie-detail .vod-area .vod-item.episodefive .price .vendor-logo,.movie-detail .vod-area .vod-item.episodesix .price .vendor-logo,.movie-detail .vod-area .vod-item.episodeseven .price .vendor-logo,.movie-detail .vod-area .vod-item.episodeeight .price .vendor-logo{
 	background:url(https://d12hfz37g51hrt.cloudfront.net/assets/service_logo-s7e9ca9cdda-d72e40b3c5c3a5f68de7b327f3285cc3.png) no-repeat;
 }
 
-.icons-sprite,.like-actions .form-like button .icon-like,.like-actions .form-like button:hover .icon-like,.like-actions .form-unlike button .icon-like,.card.empty-card .icon,#watcha-popup-wrapper .friends-popup.popup .close,#watcha-popup-wrapper .friends-popup.popup .close:hover,#account-setting-popup table .sns .field .fb .icon-wrapper,#account-setting-popup table .sns .field .twitter .icon-wrapper,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb .icon-wrapper,#watcha-popup-wrapper #account-setting-popup table .sns .field .twitter .icon-wrapper,#account-setting-popup table .sns .field .fb .icon-wrapper .switch,#account-setting-popup table .sns .field .twitter .icon-wrapper .switch,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb .icon-wrapper .switch,#watcha-popup-wrapper #account-setting-popup table .sns .field .twitter .icon-wrapper .switch,#account-setting-popup table .sns .field .fb .icon-wrapper .icon,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb .icon-wrapper .icon,#account-setting-popup table .sns .field .fb .icon-wrapper.on,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb .icon-wrapper.on,#account-setting-popup table .sns .field .twitter .icon-wrapper .icon,#watcha-popup-wrapper #account-setting-popup table .sns .field .twitter .icon-wrapper .icon,#account-setting-popup table .sns .field .twitter .icon-wrapper.on,#watcha-popup-wrapper #account-setting-popup table .sns .field .twitter .icon-wrapper.on,#account-setting-popup .reset_ims_box #box-arrow,#watcha-popup-wrapper #account-setting-popup .reset_ims_box #box-arrow,#account-setting-popup .set-interest-privacy .scope-box .box-arrow,#watcha-popup-wrapper #account-setting-popup .set-interest-privacy .scope-box .box-arrow,#header .inner .right-menu .menu.partner .dropdown .matching-rate-wrapper .matching-rate .icon,#watcha-popup-wrapper .popup .close,#watcha-popup-wrapper .popup .close:hover,.movie-card.stillcut-type .action-wrapper .wish-comment .wish .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .wish:hover .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .wish:active .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .wish.on .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .comment .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .comment:hover .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .comment:active .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .comment.on .icon,.movie-card.stillcut-type .action-wrapper .meh,.movie-card.stillcut-type .action-wrapper .meh:hover,.movie-card.stillcut-type .action-wrapper .meh:active,.movie-card.stillcut-type .action-wrapper .meh.on,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .wish .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .wish:hover .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .wish:active .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .wish.on .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .comment .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .comment:hover .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .comment:active .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .comment.on .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .meh,.movie-card.poster-type .poster-wrapper .action-wrapper .meh:hover,.movie-card.poster-type .poster-wrapper .action-wrapper .meh:active,.movie-card.poster-type .poster-wrapper .action-wrapper .meh.on,.movie-card.poster-type .poster-wrapper .action-wrapper .reserve .info-text .icon,.movie-card.poster-type .reason .front img.genre-icon.action,.movie-card.poster-type .reason .front .img.genre-icon.action,.movie-card.poster-type .reason .front img.genre-icon.animation,.movie-card.poster-type .reason .front .img.genre-icon.animation,.movie-card.poster-type .reason .front img.genre-icon.comedy,.movie-card.poster-type .reason .front .img.genre-icon.comedy,.movie-card.poster-type .reason .front img.genre-icon.crime,.movie-card.poster-type .reason .front .img.genre-icon.crime,.movie-card.poster-type .reason .front img.genre-icon.drama,.movie-card.poster-type .reason .front .img.genre-icon.drama,.movie-card.poster-type .reason .front img.genre-icon.fantasy,.movie-card.poster-type .reason .front .img.genre-icon.fantasy,.movie-card.poster-type .reason .front img.genre-icon.horror,.movie-card.poster-type .reason .front .img.genre-icon.horror,.movie-card.poster-type .reason .front img.genre-icon.romance,.movie-card.poster-type .reason .front .img.genre-icon.romance,.movie-card.poster-type .reason .front img.genre-icon.romantic_comedy,.movie-card.poster-type .reason .front .img.genre-icon.romantic_comedy,.movie-card.poster-type .reason .front img.genre-icon.sf,.movie-card.poster-type .reason .front .img.genre-icon.sf,.movie-card.poster-type .reason .front img.genre-icon.thriller,.movie-card.poster-type .reason .front .img.genre-icon.thriller,.movie-card.poster-type .reason .front img.genre-icon.war,.movie-card.poster-type .reason .front .img.genre-icon.war,.movie-card.mini-poster-card .action-wrapper .wish-comment .wish .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .wish:hover .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .wish:active .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .wish.on .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .comment .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .comment:hover .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .comment:active .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .comment.on .icon,.movie-card.mini-poster-card .action-wrapper .meh,.movie-card.mini-poster-card .action-wrapper .meh:hover,.movie-card.mini-poster-card .action-wrapper .meh:active,.movie-card.mini-poster-card .action-wrapper .meh.on,.play-btn .arrow,.movie-detail .top-area .booking-button.book .icon,.movie-detail .top-area .booking-button.play .icon,.movie-detail .top-area .booking-button.book:hover .icon,.movie-detail .top-area .booking-button.book:active .icon,.movie-detail .top-area .booking-button.play:hover .icon,.movie-detail .top-area .booking-button.play:active .icon,.movie-detail .top-area .reservation-list .arrow,.movie-detail .top-area .reservation-list .lotte-cinema,.movie-detail .top-area .reservation-list .lotte-cinema:hover,.movie-detail .top-area .reservation-list .lotte-cinema:active,.movie-detail .top-area .reservation-list .megabox,.movie-detail .top-area .reservation-list .megabox:hover,.movie-detail .top-area .reservation-list .megabox:active,.movie-detail .top-area .reservation-list .primus,.movie-detail .top-area .reservation-list .primus:hover,.movie-detail .top-area .reservation-list .primus:active,.movie-detail .top-area .reservation-list .play-hoppin .play-icon,.movie-detail .cise-wrapper .eval-stats .alba-caution-wrapper .icon,.movie-detail .west .list-tooltip.sort-list .arrow,.movie-detail .west .review-list li .user-pic .icon-official-account,.movie-detail .west .review-list li .review .interest-status.wish,.movie-detail .west .review-list li .review .interest-status.meh,.movie-detail .west .review-list li .balloon-arrow,.movie-detail .west .friends-rating .rating-item .friend-list li .user-pic .icon-official-account,#watcha-popup-wrapper .popup.comment-popup form .text-wrapper .interest-status.wish,#watcha-popup-wrapper .popup.comment-popup form .text-wrapper .interest-status.meh,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_facebook],#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_twitter],#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_facebook] .switch,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_twitter] .switch,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_facebook] .icon,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper #share_facebook.checked+label,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_twitter] .icon,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper #share_twitter.checked+label,.like-module .count:hover .likers-wrapper .arrow,.spoiler-comment .remove-blur-wrapper .icon,#watcha-tooltip .arrow,.watcha-tooltip .arrow,.card.streaming-setting .filter-type-wrapper .vendor-list .vendor .check,.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.on .check,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor .check,.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on .check,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .text .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .icon-wish,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .icon-meh,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .user-info .thumbnail .icon-official-account,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions>a .icon-more,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .spoiler-caution .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions .icon-report,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions.reported .icon-report,#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .thumbnail .icon-official-account,#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .icon-watched,#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .icon-wished,#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .icon-comment,#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .icon-follower{
+.icons-sprite,.like-actions .form-like button .icon-like,.like-actions .form-like button:hover .icon-like,.like-actions .form-unlike button .icon-like,.card.empty-card .icon,#watcha-popup-wrapper .friends-popup.popup .close,#watcha-popup-wrapper .friends-popup.popup .close:hover,#account-setting-popup table .sns .field .fb .icon-wrapper,#account-setting-popup table .sns .field .twitter .icon-wrapper,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb .icon-wrapper,#watcha-popup-wrapper #account-setting-popup table .sns .field .twitter .icon-wrapper,#account-setting-popup table .sns .field .fb .icon-wrapper .switch,#account-setting-popup table .sns .field .twitter .icon-wrapper .switch,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb .icon-wrapper .switch,#watcha-popup-wrapper #account-setting-popup table .sns .field .twitter .icon-wrapper .switch,#account-setting-popup table .sns .field .fb .icon-wrapper .icon,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb .icon-wrapper .icon,#account-setting-popup table .sns .field .fb .icon-wrapper.on,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb .icon-wrapper.on,#account-setting-popup table .sns .field .twitter .icon-wrapper .icon,#watcha-popup-wrapper #account-setting-popup table .sns .field .twitter .icon-wrapper .icon,#account-setting-popup table .sns .field .twitter .icon-wrapper.on,#watcha-popup-wrapper #account-setting-popup table .sns .field .twitter .icon-wrapper.on,#account-setting-popup .reset_ims_box #box-arrow,#watcha-popup-wrapper #account-setting-popup .reset_ims_box #box-arrow,#account-setting-popup .set-interest-privacy .scope-box .box-arrow,#watcha-popup-wrapper #account-setting-popup .set-interest-privacy .scope-box .box-arrow,#header .inner .right-menu .menu.partner .dropdown .matching-rate-wrapper .matching-rate .icon,#watcha-popup-wrapper .popup .close,#watcha-popup-wrapper .popup .close:hover,.movie-card.stillcut-type .action-wrapper .wish-comment .wish .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .wish:hover .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .wish:active .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .wish.on .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .comment .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .comment:hover .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .comment:active .icon,.movie-card.stillcut-type .action-wrapper .wish-comment .comment.on .icon,.movie-card.stillcut-type .action-wrapper .meh,.movie-card.stillcut-type .action-wrapper .meh:hover,.movie-card.stillcut-type .action-wrapper .meh:active,.movie-card.stillcut-type .action-wrapper .meh.on,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .wish .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .wish:hover .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .wish:active .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .wish.on .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .comment .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .comment:hover .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .comment:active .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .wish-comment .comment.on .icon,.movie-card.poster-type .poster-wrapper .action-wrapper .meh,.movie-card.poster-type .poster-wrapper .action-wrapper .meh:hover,.movie-card.poster-type .poster-wrapper .action-wrapper .meh:active,.movie-card.poster-type .poster-wrapper .action-wrapper .meh.on,.movie-card.poster-type .poster-wrapper .action-wrapper .reserve .info-text .icon,.movie-card.poster-type .reason .front img.genre-icon.action,.movie-card.poster-type .reason .front .img.genre-icon.action,.movie-card.poster-type .reason .front img.genre-icon.animation,.movie-card.poster-type .reason .front .img.genre-icon.animation,.movie-card.poster-type .reason .front img.genre-icon.comedy,.movie-card.poster-type .reason .front .img.genre-icon.comedy,.movie-card.poster-type .reason .front img.genre-icon.crime,.movie-card.poster-type .reason .front .img.genre-icon.crime,.movie-card.poster-type .reason .front img.genre-icon.drama,.movie-card.poster-type .reason .front .img.genre-icon.drama,.movie-card.poster-type .reason .front img.genre-icon.fantasy,.movie-card.poster-type .reason .front .img.genre-icon.fantasy,.movie-card.poster-type .reason .front img.genre-icon.horror,.movie-card.poster-type .reason .front .img.genre-icon.horror,.movie-card.poster-type .reason .front img.genre-icon.romance,.movie-card.poster-type .reason .front .img.genre-icon.romance,.movie-card.poster-type .reason .front img.genre-icon.romantic_comedy,.movie-card.poster-type .reason .front .img.genre-icon.romantic_comedy,.movie-card.poster-type .reason .front img.genre-icon.sf,.movie-card.poster-type .reason .front .img.genre-icon.sf,.movie-card.poster-type .reason .front img.genre-icon.thriller,.movie-card.poster-type .reason .front .img.genre-icon.thriller,.movie-card.poster-type .reason .front img.genre-icon.war,.movie-card.poster-type .reason .front .img.genre-icon.war,.movie-card.mini-poster-card .action-wrapper .wish-comment .wish .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .wish:hover .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .wish:active .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .wish.on .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .comment .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .comment:hover .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .comment:active .icon,.movie-card.mini-poster-card .action-wrapper .wish-comment .comment.on .icon,.movie-card.mini-poster-card .action-wrapper .meh,.movie-card.mini-poster-card .action-wrapper .meh:hover,.movie-card.mini-poster-card .action-wrapper .meh:active,.movie-card.mini-poster-card .action-wrapper .meh.on,.play-btn .arrow,.movie-detail .top-area .booking-button.book .icon,.movie-detail .top-area .booking-button.play .icon,.movie-detail .top-area .booking-button.book:hover .icon,.movie-detail .top-area .booking-button.book:active .icon,.movie-detail .top-area .booking-button.play:hover .icon,.movie-detail .top-area .booking-button.play:active .icon,.movie-detail .top-area .reservation-list .arrow,.movie-detail .top-area .reservation-list .lotte-cinema,.movie-detail .top-area .reservation-list .lotte-cinema:hover,.movie-detail .top-area .reservation-list .lotte-cinema:active,.movie-detail .top-area .reservation-list .megabox,.movie-detail .top-area .reservation-list .megabox:hover,.movie-detail .top-area .reservation-list .megabox:active,.movie-detail .top-area .reservation-list .primus,.movie-detail .top-area .reservation-list .primus:hover,.movie-detail .top-area .reservation-list .primus:active,.movie-detail .top-area .reservation-list .play-hoppin .play-icon,.movie-detail .cise-wrapper .eval-stats .alba-caution-wrapper .icon,.movie-detail .west .list-tooltip.sort-list .arrow,.movie-detail .west .review-list li .user-pic .icon-official-account,.movie-detail .west .review-list li .review .interest-status.wish,.movie-detail .west .review-list li .review .interest-status.meh,.movie-detail .west .review-list li .balloon-arrow,.movie-detail .west .friends-rating .rating-item .friend-list li .user-pic .icon-official-account,#watcha-popup-wrapper .popup.comment-popup form .text-wrapper .interest-status.wish,#watcha-popup-wrapper .popup.comment-popup form .text-wrapper .interest-status.meh,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_facebook],#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_twitter],#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_facebook] .switch,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_twitter] .switch,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_facebook] .icon,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper #share_facebook.checked+label,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper label[for=share_twitter] .icon,#watcha-popup-wrapper .popup.comment-popup form .bottom-wrapper #share_twitter.checked+label,.like-module .count:hover .likers-wrapper .arrow,.spoiler-comment .remove-blur-wrapper .icon,#watcha-tooltip .arrow,.watcha-tooltip .arrow,#searched_users_list .card .thumbnail .icon-official-account,#searched_users_list .card .activity-count .icon-watched,#searched_users_list .card .activity-count .icon-wished,#searched_users_list .card .activity-count .icon-comment,#searched_users_list .card .activity-count .icon-follower{
 	background:url(https://d12hfz37g51hrt.cloudfront.net/assets/icons-s88a0c27ba3-60fcdb2254b1efd18e6840d2ffdd85f6.png) no-repeat;
 }
 
@@ -72,16 +71,16 @@ a{
 	clear:both;
 }
 
-.clearfix:before,.clearfix:after{
+.clearfix:before,#searched_users_list:before,.clearfix:after,#searched_users_list:after{
 	content:" ";
 	display:table;
 }
 
-.clearfix:after{
+.clearfix:after,#searched_users_list:after{
 	clear:both;
 }
 
-.clearfix{
+.clearfix,#searched_users_list{
 	*zoom:1;
 }
 
@@ -118,28 +117,28 @@ a{
 
 @font-face{
 	font-family:"Roboto Thin";
-	src:url(<%= asset_path 'Roboto-Thin.ttf' %>) format("truetype");
+	src:url("https://d12hfz37g51hrt.cloudfront.net/assets/Roboto-Thin-ebef5399c0a5832c08395273595a5ca5.ttf") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
 
 @font-face{
 	font-family:"Roboto Light";
-	src:url(<%= asset_path 'Roboto-Light.ttf' %>) format("truetype");
+	src:url("https://d12hfz37g51hrt.cloudfront.net/assets/Roboto-Light-e70a8ea2ddd2d94306ce3dcf90d7efbf.ttf") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
 
 @font-face{
 	font-family:"Roboto Bold";
-	src:url(<%= asset_path 'Roboto-Bold.ttf' %>) format("truetype");
+	src:url("https://d12hfz37g51hrt.cloudfront.net/assets/Roboto-Bold-a7736e3615ea23bb1e5d42c0bc6eb5bb.ttf") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
 
 @font-face{
 	font-family:"Roboto Black";
-	src:url(<%= asset_path 'Roboto-Black.ttf' %>) format("truetype");
+	src:url("https://d12hfz37g51hrt.cloudfront.net/assets/Roboto-Black-551ed7e1b8a345668c408a674ad4c1d9.ttf") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -2465,7 +2464,8 @@ p.bjqs-caption{
 	bottom:0;
 }
 
-@CHARSET "UTF-8";.sbHolder{
+@CHARSET "UTF-8";
+	.sbHolder{
 	background-color:#ffffff;
 	font-size:12px;
 	font-weight:normal;
@@ -2630,7 +2630,7 @@ body.user .responsive-mask{
 
 @media screen and (max-width: 1600px){
 	body.user #header #search-form{
-    	margin-left:-30px;
+	    margin-left:-30px;
     }
     
     body.user #header #gnb-right-menu a.name{
@@ -2648,13 +2648,13 @@ body.user .responsive-mask{
 }
 
 @media screen and (min-width: 1600px){
-	body.home .responsive-mask,body.user .responsive-mask{
-    	width:1440px;
-    }
+	/*body.home .responsive-mask,body.user .responsive-mask{*/
+ /*   	width:1440px;*/
+ /*   }*/
     
-    body.user #header .inner #search-form{
-    	margin-left:-130px;
-    }
+ /*   body.user #header .inner #search-form{*/
+ /*   	margin-left:-130px;*/
+ /*   }*/
 }
 
 .setting-sprite,#account-setting-popup .photo-wrapper .name-and-upload .name .upload,#watcha-popup-wrapper #account-setting-popup .photo-wrapper .name-and-upload .name .upload,#account-setting-popup .photo-wrapper .name-and-upload .name .upload:hover,#watcha-popup-wrapper #account-setting-popup .photo-wrapper .name-and-upload .name .upload:hover,#account-setting-popup .photo-wrapper .name-and-upload .name .upload:active,#watcha-popup-wrapper #account-setting-popup .photo-wrapper .name-and-upload .name .upload:active{
@@ -3012,7 +3012,6 @@ body.user .responsive-mask{
 	background:url(https://d12hfz37g51hrt.cloudfront.net/assets/icons/checkbox_off-fdcab9e357d706eda9804aa628660476.png) no-repeat;
 }
 
-/*2.0*/
 #account-setting-popup table .sns .field .fb input[type=checkbox]:checked+label,#watcha-popup-wrapper #account-setting-popup table .sns .field .fb input[type=checkbox]:checked+label{
 	background:url(https://d12hfz37g51hrt.cloudfront.net/assets/icons/checkbox_on-a42df17cc5d5e08da496bffad73fe9fb.png) no-repeat;
 }
@@ -6012,7 +6011,6 @@ body.on-the-cover #header.visitor #gnb-right-menu .gnb .mail{
 	padding-left:40px;
 }
 
-/*3.0*/
 .movie-card.stillcut-type .vods .vod.jeulgam .price .vendor-logo{
 	width:24px;
 	height:19px;
@@ -9013,261 +9011,300 @@ body.ie8 .movie-card.stillcut-type:hover .action-wrapper,body.ie7 .movie-card.st
 .movie-detail .east .facebook a:active{
 	background-position:0 -424px;
 }
-/*4.0*/
 
 #watcha-popup-wrapper .movie-detail-container.popup{
-    overflow:visible
+	overflow:visible;
 }
+
 #watcha-popup-wrapper .movie-detail-container.popup .close{
-    display:none
+	display:none;
 }
+
 .landing #contents{
-    padding:90px 0 40px
+	padding:90px 0 40px;
 }
+
 .landing #contents .movie-detail{
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    -ms-border-radius:5px;
-    -o-border-radius:5px;
-    border-radius:5px;
-    border:1px solid #dcdad8
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #dcdad8;
 }
+
 .dotum .movie-detail .top-area .booking-button{
-    line-height:36px
+	line-height:36px;
 }
+
 .dotum .movie-detail .cise-wrapper .info .title{
-    letter-spacing:-1px
+	letter-spacing:-1px;
 }
+
 .dotum .movie-detail .west .friends-rating .rating-item .friend-list li{
-    width:81px
+	width:81px;
 }
+
 .dotum .movie-detail .west .friends-rating .rating-item .friends-rating-more-wrapper .friends-rating-more .count{
-    height:48px;
-    padding-top:0
+	height:48px;
+	padding-top:0;
 }
+
 .ie8 .movie-detail .west .review-list li.spoiler-comment .remove-blur-wrapper{
-    background:url(https://d12hfz37g51hrt.cloudfront.net/assets/detail/spoiler_for_ie8-d4c984a401830b2c4cb1298e986b0b10.jpg) 0 0 no-repeat
+	background:url(https://d12hfz37g51hrt.cloudfront.net/assets/detail/spoiler_for_ie8-d4c984a401830b2c4cb1298e986b0b10.jpg) 0 0 no-repeat;
 }
+
 .ie8 .movie-detail .west .review-list li.spoiler-comment .remove-blur-wrapper .icon,.ie8 .movie-detail .west .review-list li.spoiler-comment .remove-blur-wrapper .spoiler-text{
-    margin-left:50px
+	margin-left:50px;
 }
+
 #watcha-popup-wrapper .involve-movies{
-    background-color:#e5e5e5;
-    max-width:660px;
-    font-size:14px;
-    color:#555;
-    font-weight:bold;
-    -moz-border-radius-topleft:10px;
-    -webkit-border-top-left-radius:10px;
-    border-top-left-radius:10px;
-    -moz-border-radius-topright:10px;
-    -webkit-border-top-right-radius:10px;
-    border-top-right-radius:10px;
-    -webkit-box-shadow:0px 3px 3px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,0.15);
-    -moz-box-shadow:0px 3px 3px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,0.15);
-    box-shadow:0px 3px 3px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,0.15)
+	background-color:#e5e5e5;
+	max-width:660px;
+	font-size:14px;
+	color:#555;
+	font-weight:bold;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	-webkit-box-shadow:0px 3px 3px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,0.15);
+	-moz-box-shadow:0px 3px 3px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,0.15);
+	box-shadow:0px 3px 3px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,0.15);
 }
+
 #watcha-popup-wrapper .involve-movies .inner-shadow{
-    display:block;
-    position:absolute;
-    width:100%;
-    height:10px;
-    -moz-border-radius-topleft:10px;
-    -webkit-border-top-left-radius:10px;
-    border-top-left-radius:10px;
-    -moz-border-radius-topright:10px;
-    -webkit-border-top-right-radius:10px;
-    border-top-right-radius:10px;
-    -webkit-box-shadow:inset 0px 2px 1px rgba(255,255,255,0.2);
-    -moz-box-shadow:inset 0px 2px 1px rgba(255,255,255,0.2);
-    box-shadow:inset 0px 2px 1px rgba(255,255,255,0.2)
+	display:block;
+	position:absolute;
+	width:100%;
+	height:10px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	-webkit-box-shadow:inset 0px 2px 1px rgba(255,255,255,0.2);
+	-moz-box-shadow:inset 0px 2px 1px rgba(255,255,255,0.2);
+	box-shadow:inset 0px 2px 1px rgba(255,255,255,0.2);
 }
+
 #watcha-popup-wrapper .involve-movies h4{
-    -moz-border-radius-topleft:10px;
-    -webkit-border-top-left-radius:10px;
-    border-top-left-radius:10px;
-    -moz-border-radius-topright:10px;
-    -webkit-border-top-right-radius:10px;
-    border-top-right-radius:10px;
-    background-size:cover;
-    background-position:center;
-    color:#fff;
-    font-size:16px;
-    text-align:center;
-    margin-bottom:10px;
-    padding:20px 0 15px;
-    height:145px;
-    text-shadow:rgba(0,0,0,0.3) 0 1px 1px
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	background-size:cover;
+	background-position:center;
+	color:#fff;
+	font-size:16px;
+	text-align:center;
+	margin-bottom:10px;
+	padding:20px 0 15px;
+	height:145px;
+	text-shadow:rgba(0,0,0,0.3) 0 1px 1px;
 }
+
 #watcha-popup-wrapper .involve-movies h4 .user-photo{
-    -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-    -ms-border-radius:50%;
-    -o-border-radius:50%;
-    border-radius:50%;
-    behavior:url(/PIE.htc);
-    position:relative;
-    display:block;
-    margin:0 auto 10px;
-    width:120px;
-    height:120px;
-    background-position:center;
-    background-size:cover
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	border-radius:50%;
+	behavior:url(/PIE.htc);
+	position:relative;
+	display:block;
+	margin:0 auto 10px;
+	width:120px;
+	height:120px;
+	background-position:center;
+	background-size:cover;
 }
+
 #watcha-popup-wrapper .involve-movies h4 .user-photo img{
-    margin:-4px 0 0 -4px
+	margin:-4px 0 0 -4px;
 }
+
 #watcha-popup-wrapper .involve-movies h5{
-    margin:0 10px 20px
+	margin:0 10px 20px;
 }
+
 #watcha-popup-wrapper .involve-movies h5 .count{
-    color:#999;
-    font-weight:normal
+	color:#999;
+	font-weight:normal;
 }
+
 #watcha-popup-wrapper .involve-movies .by-director,#watcha-popup-wrapper .involve-movies .by-actor{
-    margin-top:-10px
+	margin-top:-10px;
 }
+
 #watcha-popup-wrapper .involve-movies .movie-card{
-    margin-bottom:20px
+	margin-bottom:20px;
 }
+
 .chosen-container{
-    position:relative;
-    display:inline-block;
-    vertical-align:middle;
-    font-size:13px;
-    zoom:1;
-    *display:inline;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    user-select:none
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	font-size:13px;
+	zoom:1;
+	*display:inline;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	user-select:none;
 }
+
 .chosen-container .chosen-drop{
-    position:absolute;
-    top:100%;
-    left:-9999px;
-    z-index:1010;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-    width:100%;
-    border:1px solid #aaa;
-    border-top:0;background:#fff;
-    box-shadow:0 4px 5px rgba(0,0,0,0.15)
+	position:absolute;
+	top:100%;
+	left:-9999px;
+	z-index:1010;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100%;
+	border:1px solid #aaa;
+	border-top:0;
+	background:#fff;
+	box-shadow:0 4px 5px rgba(0,0,0,0.15);
 }
+
 .chosen-container.chosen-with-drop .chosen-drop{
-    left:0
+	left:0;
 }
+
 .chosen-container a{
-    cursor:pointer
+	cursor:pointer;
 }
+
 .chosen-container-single .chosen-single{
-    position:relative;
-    display:block;
-    overflow:hidden;
-    padding:0 0 0 8px;
-    height:23px;
-    border:1px solid #aaa;
-    border-radius:5px;
-    background-color:#fff;
-    background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #fff), color-stop(50%, #f6f6f6), color-stop(52%, #eee), color-stop(100%, #f4f4f4));
-    background:-webkit-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
-    background:-moz-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
-    background:-o-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
-    background:linear-gradient(top, #ffffff 20%,#f6f6f6 50%,#eeeeee 52%,#f4f4f4 100%);
-    background-clip:padding-box;
-    box-shadow:0 0 3px #fff inset,0 1px 1px rgba(0,0,0,0.1);
-    color:#444;
-    text-decoration:none;
-    white-space:nowrap;
-    line-height:24px
+	position:relative;
+	display:block;
+	overflow:hidden;
+	padding:0 0 0 8px;
+	height:23px;
+	border:1px solid #aaa;
+	border-radius:5px;
+	background-color:#fff;
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #fff), color-stop(50%, #f6f6f6), color-stop(52%, #eee), color-stop(100%, #f4f4f4));
+	background:-webkit-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
+	background:-moz-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
+	background:-o-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
+	background:linear-gradient(top, #ffffff 20%,#f6f6f6 50%,#eeeeee 52%,#f4f4f4 100%);
+	background-clip:padding-box;
+	box-shadow:0 0 3px #fff inset,0 1px 1px rgba(0,0,0,0.1);
+	color:#444;
+	text-decoration:none;
+	white-space:nowrap;
+	line-height:24px;
 }
+
 .chosen-container-single .chosen-default{
-    color:#999
+	color:#999;
 }
+
 .chosen-container-single .chosen-single span{
-    display:block;
-    overflow:hidden;
-    margin-right:26px;
-    text-overflow:ellipsis;
-    white-space:nowrap
+	display:block;
+	overflow:hidden;
+	margin-right:26px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
 }
+
 .chosen-container-single .chosen-single-with-deselect span{
-    margin-right:38px
+	margin-right:38px;
 }
+
 .chosen-container-single .chosen-single abbr{
-    position:absolute;
-    top:6px;
-    right:26px;
-    display:block;
-    width:12px;
-    height:12px;
-    background:url("comment/chosen-sprite.png") -42px 1px no-repeat;font-size:1px
+	position:absolute;
+	top:6px;
+	right:26px;
+	display:block;
+	width:12px;
+	height:12px;
+	background:url("comment/chosen-sprite.png") -42px 1px no-repeat;
+	font-size:1px;
 }
+
 .chosen-container-single .chosen-single abbr:hover{
-    background-position:-42px -10px
+	background-position:-42px -10px;
 }
+
 .chosen-container-single.chosen-disabled .chosen-single abbr:hover{
-    background-position:-42px -10px
+	background-position:-42px -10px;
 }
+
 .chosen-container-single .chosen-single div{
-    position:absolute;
-    top:0;
-    right:0;
-    display:block;
-    width:18px;
-    height:100%
+	position:absolute;
+	top:0;
+	right:0;
+	display:block;
+	width:18px;
+	height:100%;
 }
+
 .chosen-container-single .chosen-single div b{
-    display:block;
-    width:100%;
-    height:100%;
-    background:url("comment/chosen-sprite.png") no-repeat 0px 2px
+	display:block;
+	width:100%;
+	height:100%;
+	background:url("comment/chosen-sprite.png") no-repeat 0px 2px;
 }
+
 .chosen-container-single .chosen-search{
-    position:relative;
-    z-index:1010;
-    margin:0;
-    padding:3px 4px;
-    white-space:nowrap
+	position:relative;
+	z-index:1010;
+	margin:0;
+	padding:3px 4px;
+	white-space:nowrap;
 }
+
 .chosen-container-single .chosen-search input[type="text"]{
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-    margin:1px 0;
-    padding:4px 20px 4px 5px;
-    width:100%;height:auto;
-    outline:0;
-    border:1px solid #aaa;
-    background:#fff url("comment/chosen-sprite.png") no-repeat 100% -20px;
-    background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eee), color-stop(15%, #fff));
-    background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-webkit-linear-gradient(#eee 1%, #fff 15%);
-    background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-moz-linear-gradient(#eee 1%, #fff 15%);
-    background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-o-linear-gradient(#eee 1%, #fff 15%);
-    background:url("comment/chosen-sprite.png") no-repeat 100% -20px,linear-gradient(#eeeeee 1%,#ffffff 15%);
-    font-size:1em;
-    font-family:sans-serif;
-    line-height:normal;
-    border-radius:0
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	margin:1px 0;
+	padding:4px 20px 4px 5px;
+	width:100%;
+	height:auto;
+	outline:0;
+	border:1px solid #aaa;
+	background:#fff url("comment/chosen-sprite.png") no-repeat 100% -20px;
+	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eee), color-stop(15%, #fff));
+	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-webkit-linear-gradient(#eee 1%, #fff 15%);
+	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-moz-linear-gradient(#eee 1%, #fff 15%);
+	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-o-linear-gradient(#eee 1%, #fff 15%);
+	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,linear-gradient(#eeeeee 1%,#ffffff 15%);
+	font-size:1em;
+	font-family:sans-serif;
+	line-height:normal;
+	border-radius:0;
 }
+
 .chosen-container-single .chosen-drop{
-    margin-top:-1px;
-    border-radius:0 0 4px 4px;
-    background-clip:padding-box
+	margin-top:-1px;
+	border-radius:0 0 4px 4px;
+	background-clip:padding-box;
 }
+
 .chosen-container-single.chosen-container-single-nosearch .chosen-search{
-    position:absolute;
-    left:-9999px
+	position:absolute;
+	left:-9999px;
 }
+
 .chosen-container .chosen-results{
-    position:relative;
-    overflow-x:hidden;
-    overflow-y:auto;
-    margin:0 4px 4px 0;
-    padding:0 0 0 4px;
-    max-height:240px;
-    -webkit-overflow-scrolling:touch
+	position:relative;
+	overflow-x:hidden;
+	overflow-y:auto;
+	margin:0 4px 4px 0;
+	padding:0 0 0 4px;
+	max-height:240px;
+	-webkit-overflow-scrolling:touch;
 }
+
 .chosen-container .chosen-results li{
 	display:none;
 	margin:0;
@@ -11142,20 +11179,20 @@ body .pac-container .pac-item:hover{
 }
 
 .remove-blur-wrapper{
-    display:none
+	display:none;
 }
 
 .spoiler-comment .blur-area{
-    -webkit-filter:blur(10px);
-    -moz-filter:blur(10px);
-    filter:blur(10px);
-    filter:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='gaussian-blur'><feGaussianBlur stdDeviation='3'/></filter></svg>#gaussian-blur");
-    -webkit-transform:translate3d(0, 0, 0);
-    -moz-transform:translate3d(0, 0, 0);
-    -ms-transform:translate3d(0, 0, 0);
-    -o-transform:translate3d(0, 0, 0);
-    transform:translate3d(0, 0, 0);
-    opacity:0.5
+	-webkit-filter:blur(10px);
+	-moz-filter:blur(10px);
+	filter:blur(10px);
+	filter:url("data:image/svg+xml;utf8,#gaussian-blur");
+	-webkit-transform:translate3d(0, 0, 0);
+	-moz-transform:translate3d(0, 0, 0);
+	-ms-transform:translate3d(0, 0, 0);
+	-o-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	opacity:0.5;
 }
 
 .spoiler-comment .remove-blur-wrapper{
@@ -11533,2302 +11570,148 @@ svg.rating-chart path.area{
 	font-weight:400;
 }
 
-.chosen-container{
-	position:relative;
-	display:inline-block;
-	vertical-align:middle;
-	font-size:13px;
-	zoom:1;
-	*display:inline;
-	-webkit-user-select:none;
-	-moz-user-select:none;
-	user-select:none;
-}
-
-.chosen-container .chosen-drop{
-	position:absolute;
-	top:100%;
-	left:-9999px;
-	z-index:1010;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	width:100%;
-	border:1px solid #aaa;
-	border-top:0;
-	background:#fff;
-	box-shadow:0 4px 5px rgba(0,0,0,0.15);
-}
-
-.chosen-container.chosen-with-drop .chosen-drop{
-	left:0;
-}
-
-.chosen-container a{
-	cursor:pointer;
-}
-
-.chosen-container-single .chosen-single{
-	position:relative;
-	display:block;
-	overflow:hidden;
-	padding:0 0 0 8px;
-	height:23px;
-	border:1px solid #aaa;
-	border-radius:5px;
-	background-color:#fff;
-	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #fff), color-stop(50%, #f6f6f6), color-stop(52%, #eee), color-stop(100%, #f4f4f4));
-	background:-webkit-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
-	background:-moz-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
-	background:-o-linear-gradient(top, #fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);
-	background:linear-gradient(top, #ffffff 20%,#f6f6f6 50%,#eeeeee 52%,#f4f4f4 100%);
-	background-clip:padding-box;
-	box-shadow:0 0 3px #fff inset,0 1px 1px rgba(0,0,0,0.1);
-	color:#444;
-	text-decoration:none;
-	white-space:nowrap;
-	line-height:24px;
-}
-
-.chosen-container-single .chosen-default{
-	color:#999;
-}
-
-.chosen-container-single .chosen-single span{
-	display:block;
-	overflow:hidden;
-	margin-right:26px;
-	text-overflow:ellipsis;
-	white-space:nowrap;
-}
-
-.chosen-container-single .chosen-single-with-deselect span{
-	margin-right:38px;
-}
-
-.chosen-container-single .chosen-single abbr{
-	position:absolute;
-	top:6px;
-	right:26px;
-	display:block;
-	width:12px;
-	height:12px;
-	background:url("comment/chosen-sprite.png") -42px 1px no-repeat;
-	font-size:1px;
-}
-
-.chosen-container-single .chosen-single abbr:hover{
-	background-position:-42px -10px;
-}
-
-.chosen-container-single.chosen-disabled .chosen-single abbr:hover{
-	background-position:-42px -10px;
-}
-
-.chosen-container-single .chosen-single div{
-	position:absolute;
-	top:0;
-	right:0;
-	display:block;
-	width:18px;
-	height:100%;
-}
-
-.chosen-container-single .chosen-single div b{
-	display:block;
-	width:100%;
-	height:100%;
-	background:url("comment/chosen-sprite.png") no-repeat 0px 2px;
-}
-
-.chosen-container-single .chosen-search{
-	position:relative;
-	z-index:1010;
-	margin:0;
-	padding:3px 4px;
-	white-space:nowrap;
-}
-
-.chosen-container-single .chosen-search input[type="text"]{
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	margin:1px 0;
-	padding:4px 20px 4px 5px;
-	width:100%;
-	height:auto;
-	outline:0;
-	border:1px solid #aaa;
-	background:#fff url("comment/chosen-sprite.png") no-repeat 100% -20px;
-	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eee), color-stop(15%, #fff));
-	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-webkit-linear-gradient(#eee 1%, #fff 15%);
-	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-moz-linear-gradient(#eee 1%, #fff 15%);
-	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,-o-linear-gradient(#eee 1%, #fff 15%);
-	background:url("comment/chosen-sprite.png") no-repeat 100% -20px,linear-gradient(#eeeeee 1%,#ffffff 15%);
-	font-size:1em;
-	font-family:sans-serif;
-	line-height:normal;
-	border-radius:0;
-}
-
-.chosen-container-single .chosen-drop{
-	margin-top:-1px;
-	border-radius:0 0 4px 4px;
-	background-clip:padding-box;
-}
-
-.chosen-container-single.chosen-container-single-nosearch .chosen-search{
-	position:absolute;
-	left:-9999px;
-}
-
-.chosen-container .chosen-results{
-	position:relative;
-	overflow-x:hidden;
-	overflow-y:auto;
-	margin:0 4px 4px 0;
-	padding:0 0 0 4px;
-	max-height:240px;
-	-webkit-overflow-scrolling:touch;
-}
-
-.chosen-container .chosen-results li{
-	display:none;
-	margin:0;
-	padding:5px 6px;
-	list-style:none;
-	line-height:15px;
-}
-
-.chosen-container .chosen-results li.active-result{
-	display:list-item;
-	cursor:pointer;
-}
-
-.chosen-container .chosen-results li.disabled-result{
-	display:list-item;
-	color:#ccc;
-	cursor:default;
-}
-
-.chosen-container .chosen-results li.highlighted{
-	background-color:#3875d7;
-	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));
-	background-image:-webkit-linear-gradient(#3875d7 20%, #2a62bc 90%);
-	background-image:-moz-linear-gradient(#3875d7 20%, #2a62bc 90%);
-	background-image:-o-linear-gradient(#3875d7 20%, #2a62bc 90%);
-	background-image:linear-gradient(#3875d7 20%,#2a62bc 90%);
-	color:#fff;
-}
-
-.chosen-container .chosen-results li.no-results{
-	display:list-item;
-	background:#f4f4f4;
-}
-
-.chosen-container .chosen-results li.group-result{
-	display:list-item;
-	font-weight:bold;
-	cursor:default;
-}
-
-.chosen-container .chosen-results li.group-option{
-	padding-left:15px;
-}
-
-.chosen-container .chosen-results li em{
-	font-style:normal;
-	text-decoration:underline;
-}
-
-.chosen-container-multi .chosen-choices{
-	position:relative;
-	overflow:hidden;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	margin:0;
-	padding:0;
-	width:100%;
-	height:auto !important;
-	height:1%;
-	border:1px solid #aaa;
-	background-color:#fff;
-	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eee), color-stop(15%, #fff));
-	background-image:-webkit-linear-gradient(#eee 1%, #fff 15%);
-	background-image:-moz-linear-gradient(#eee 1%, #fff 15%);
-	background-image:-o-linear-gradient(#eee 1%, #fff 15%);
-	background-image:linear-gradient(#eeeeee 1%,#ffffff 15%);
-	cursor:text;
-}
-
-.chosen-container-multi .chosen-choices li{
-	float:left;
-	list-style:none;
-}
-
-.chosen-container-multi .chosen-choices li.search-field{
-	margin:0;
-	padding:0;
-	white-space:nowrap;
-}
-
-.chosen-container-multi .chosen-choices li.search-field input[type="text"]{
-	margin:1px 0;
-	padding:5px;
-	height:15px;
-	outline:0;
-	border:0 !important;
-	background:transparent !important;
-	box-shadow:none;
-	color:#666;
-	font-size:100%;
-	font-family:sans-serif;
-	line-height:normal;
-	border-radius:0;
-}
-
-.chosen-container-multi .chosen-choices li.search-field .default{
-	color:#999;
-}
-
-.chosen-container-multi .chosen-choices li.search-choice{
-	position:relative;
-	margin:3px 0 3px 5px;
-	padding:3px 20px 3px 5px;
-	border:1px solid #aaa;
-	border-radius:3px;
-	background-color:#e4e4e4;
-	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eee));
-	background-image:-webkit-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
-	background-image:-moz-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
-	background-image:-o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
-	background-image:linear-gradient(#f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eeeeee 100%);
-	background-clip:padding-box;
-	box-shadow:0 0 2px #fff inset,0 1px 0 rgba(0,0,0,0.05);
-	color:#333;
-	line-height:13px;
-	cursor:default;
-}
-
-.chosen-container-multi .chosen-choices li.search-choice .search-choice-close{
-	position:absolute;
-	top:4px;
-	right:3px;
-	display:block;
-	width:12px;
-	height:12px;
-	background:url("comment/chosen-sprite.png") -42px 1px no-repeat;
-	font-size:1px;
-}
-
-.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover{
-	background-position:-42px -10px;
-}
-
-.chosen-container-multi .chosen-choices li.search-choice-disabled{
-	padding-right:5px;
-	border:1px solid #ccc;
-	background-color:#e4e4e4;
-	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eee));
-	background-image:-webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
-	background-image:-moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
-	background-image:-o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eee 100%);
-	background-image:linear-gradient(top, #f4f4f4 20%,#f0f0f0 50%,#e8e8e8 52%,#eeeeee 100%);
-	color:#666;
-}
-
-.chosen-container-multi .chosen-choices li.search-choice-focus{
-	background:#d4d4d4;
-}
-
-.chosen-container-multi .chosen-choices li.search-choice-focus .search-choice-close{
-	background-position:-42px -10px;
-}
-
-.chosen-container-multi .chosen-results{
-	margin:0;
-	padding:0;
-}
-
-.chosen-container-multi .chosen-drop .result-selected{
-	display:list-item;
-	color:#ccc;
-	cursor:default;
-}
-
-.chosen-container-active .chosen-single{
-	border:1px solid #5897fb;
-	box-shadow:0 0 5px rgba(0,0,0,0.3);
-}
-
-.chosen-container-active.chosen-with-drop .chosen-single{
-	border:1px solid #aaa;
-	-moz-border-radius-bottomright:0;
-	border-bottom-right-radius:0;
-	-moz-border-radius-bottomleft:0;
-	border-bottom-left-radius:0;
-	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #eee), color-stop(80%, #fff));
-	background-image:-webkit-linear-gradient(#eee 20%, #fff 80%);
-	background-image:-moz-linear-gradient(#eee 20%, #fff 80%);
-	background-image:-o-linear-gradient(#eee 20%, #fff 80%);
-	background-image:linear-gradient(#eeeeee 20%,#ffffff 80%);
-	box-shadow:0 1px 0 #fff inset;
-}
-
-.chosen-container-active.chosen-with-drop .chosen-single div{
-	border-left:none;
-	background:transparent;
-}
-
-.chosen-container-active.chosen-with-drop .chosen-single div b{
-	background-position:-18px 2px;
-}
-
-.chosen-container-active .chosen-choices{
-	border:1px solid #5897fb;
-	box-shadow:0 0 5px rgba(0,0,0,0.3);
-}
-
-.chosen-container-active .chosen-choices li.search-field input[type="text"]{
-	color:#111 !important;
-}
-
-.chosen-disabled{
-	opacity:0.5 !important;
-	cursor:default;
-}
-
-.chosen-disabled .chosen-single{
-	cursor:default;
-}
-
-.chosen-disabled .chosen-choices .search-choice .search-choice-close{
-	cursor:default;
-}
-
-.chosen-rtl{
-	text-align:right;
-}
-
-.chosen-rtl .chosen-single{
-	overflow:visible;
-	padding:0 8px 0 0;
-}
-
-.chosen-rtl .chosen-single span{
-	margin-right:0;
-	margin-left:26px;
-	direction:rtl;
-}
-
-.chosen-rtl .chosen-single-with-deselect span{
-	margin-left:38px;
-}
-
-.chosen-rtl .chosen-single div{
-	right:auto;
-	left:3px;
-}
-
-.chosen-rtl .chosen-single abbr{
-	right:auto;
-	left:26px;
-}
-
-.chosen-rtl .chosen-choices li{
-	float:right;
-}
-
-.chosen-rtl .chosen-choices li.search-field input[type="text"]{
-	direction:rtl;
-}
-
-.chosen-rtl .chosen-choices li.search-choice{
-	margin:3px 5px 3px 0;
-	padding:3px 5px 3px 19px;
-}
-
-.chosen-rtl .chosen-choices li.search-choice .search-choice-close{
-	right:auto;
-	left:4px;
-}
-
-.chosen-rtl.chosen-container-single-nosearch .chosen-search,.chosen-rtl .chosen-drop{
-	left:9999px;
-}
-
-.chosen-rtl.chosen-container-single .chosen-results{
-	margin:0 0 4px 4px;
-	padding:0 4px 0 0;
-}
-
-.chosen-rtl .chosen-results li.group-option{
-	padding-right:15px;
-	padding-left:0;
-}
-
-.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div{
-	border-right:none;
-}
-
-.chosen-rtl .chosen-search input[type="text"]{
-	padding:4px 5px 4px 20px;
-	background:#fff url("comment/chosen-sprite.png") no-repeat -30px -20px;
-	background:url("comment/chosen-sprite.png") no-repeat -30px -20px,-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eee), color-stop(15%, #fff));
-	background:url("comment/chosen-sprite.png") no-repeat -30px -20px,-webkit-linear-gradient(#eee 1%, #fff 15%);
-	background:url("comment/chosen-sprite.png") no-repeat -30px -20px,-moz-linear-gradient(#eee 1%, #fff 15%);
-	background:url("comment/chosen-sprite.png") no-repeat -30px -20px,-o-linear-gradient(#eee 1%, #fff 15%);
-	background:url("comment/chosen-sprite.png") no-repeat -30px -20px,linear-gradient(#eeeeee 1%,#ffffff 15%);
-	direction:rtl;
-}
-
-.chosen-rtl.chosen-container-single .chosen-single div b{
-	background-position:6px 2px;
-}
-
-.chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b{
-	background-position:-12px 2px;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi){
-    .chosen-rtl .chosen-search input[type="text"],.chosen-container-single .chosen-single abbr,.chosen-container-single .chosen-single div b,.chosen-container-single .chosen-search input[type="text"],.chosen-container-multi .chosen-choices .search-choice .search-choice-close,.chosen-container .chosen-results-scroll-down span,.chosen-container .chosen-results-scroll-up span{
-        background-image:url("comment/chosen-sprite-2x.png") !important;
-        background-size:52px 37px !important;
-        background-repeat:no-repeat !important   
-    }
-}
-.home-sprite,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .play-store,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .play-store:hover,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .play-store:active,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .app-store,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .app-store:hover,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .app-store:active,#contents .kwz:hover .bjqs-controls .bjqs-prev a,#contents .kwz:hover .bjqs-controls .bjqs-prev a:hover,#contents .kwz:hover .bjqs-controls .bjqs-prev a:active,#contents .kwz:hover .bjqs-controls .bjqs-next a,#contents .kwz:hover .bjqs-controls .bjqs-next a:hover,#contents .kwz:hover .bjqs-controls .bjqs-next a:active,#contents .recommend-wrapper #home-banner .close,#contents .recommend-wrapper .sections-wrapper .section .prev-btn,#contents .recommend-wrapper .sections-wrapper .section .prev-btn:hover,#contents .recommend-wrapper .sections-wrapper .section .prev-btn:active,#contents .recommend-wrapper .sections-wrapper .section .next-btn,#contents .recommend-wrapper .sections-wrapper .section .next-btn:hover,#contents .recommend-wrapper .sections-wrapper .section .next-btn:active,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend .btn .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend .btn .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb .btn .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb .btn .icon{
-	background:url(https://d12hfz37g51hrt.cloudfront.net/assets/home-s9e3bc113b5-25fb429d8f034c77b44ac80b15e5be79.png) no-repeat;
-}
-
-.card.ranking{
-	background-color:#ff382e;
-}
-
-.card.ranking .head{
-	color:#fff;
-	border-bottom:solid 1px rgba(0,0,0,0.2);
-}
-
-.card.ranking .inner{
-	padding:12px 15px;
-}
-
-.card.ranking .inner .list .item{
-	padding-bottom:2px;
-	color:#fff;
-	position:relative;
-	padding-left:28px;
-}
-
-.card.ranking .inner .list .item a{
-	color:#fff;
-	line-height:24px;
-	width:160px;
-	display:inline-block;
-	white-space:nowrap;
-	overflow:hidden;
-	text-overflow:ellipsis;
-}
-
-.card.ranking .inner .list .item a .number{
-	position:absolute;
-	left:0px;
-	top:2px;
-	display:block;
-	width:18px;
-	height:18px;
-	line-height:20px;
-	text-align:center;
-	color:black;
-	font-size:13px;
-	background-color:white;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	-ms-border-radius:3px;
-	-o-border-radius:3px;
-	border-radius:3px;
-}
-
-.card.ranking .inner .list .item.rank1 .number,.card.ranking .inner .list .item.rank2 .number,.card.ranking .inner .list .item.rank3 .number{
-	background-color:black;
-	color:#fff;
-}
-
-.card.boxoffice-chart{
-	background-color:#ffffff;
-	overflow:hidden;
-}
-
-.card.boxoffice-chart .head{
-	border-bottom:1px solid #e5e5e5;
-}
-
-.card.boxoffice-chart .charts{
-	position:relative;
-}
-
-.card.boxoffice-chart .charts .chart{
-	position:absolute;
-	top:10px;
-	left:0;
-	padding-top:50px;
-	width:220px;
-	height:200px;
-}
-
-.card.boxoffice-chart .legends{
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:1;
-	width:100%;
-}
-
-.card.boxoffice-chart .legend{
-	position:relative;
-	padding-left:33px;
-	line-height:17px;
-	color:#93939c;
-}
-
-.card.boxoffice-chart .legend .color-icon{
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-ms-border-radius:50%;
-	-o-border-radius:50%;
-	border-radius:50%;
-	display:block;
-	position:absolute;
-	top:4px;
-	left:20px;
-	width:8px;
-	height:8px;
-}
-
-.card.boxoffice-chart .legend.rank1 .color-icon{
-	background-color:#f95823;
-}
-
-.card.boxoffice-chart .legend.rank2 .color-icon{
-	background-color:#8597e7;
-}
-
-.card.boxoffice-chart .legend.rank3 .color-icon{
-	background-color:#58c7a3;
-}
-
-.card.boxoffice-chart .legend .text{
-	font-size:12px;
-}
-
-.card.boxoffice-chart .legend .count{
-	position:absolute;
-	top:2px;
-	right:20px;
-	font-size:12px;
-}
-
-.card.boxoffice-chart .chart-tooltip{
-	padding:5px;
-}
-
-.card.boxoffice-chart .chart-tooltip .tooltip-date{
-	display:block;
-	margin-bottom:3px;
-}
-
-.card.boxoffice-chart .chart-tooltip.ranking-1 .tooltip-title,.card.boxoffice-chart .chart-tooltip.ranking-1 .tooltip-count{
-	color:#f95823;
-}
-
-.card.boxoffice-chart .chart-tooltip.ranking-2 .tooltip-title,.card.boxoffice-chart .chart-tooltip.ranking-2 .tooltip-count{
-	color:#8597e7;
-}
-
-.card.boxoffice-chart .chart-tooltip.ranking-3 .tooltip-title,.card.boxoffice-chart .chart-tooltip.ranking-3 .tooltip-count{
-	color:#58c7a3;
-}
-
-.card.streaming-setting{
-	position:relative;
-}
-
-.card.streaming-setting .inner{
-	padding:30px 15px;
-}
-
-.card.streaming-setting .inner dt{
-	font-size:32px;
-	line-height:42px;
-	color:#6d6c83;
-	margin-bottom:15px;
-}
-
-.card.streaming-setting .inner dd{
-	font-size:12px;
-	line-height:18px;
-	color:#93939c;
-}
-
-.card.streaming-setting .filter-type-wrapper{
-	position:absolute;
-	bottom:0;
-	left:0;
-	width:100%;
-}
-
-.card.streaming-setting .filter-type-wrapper .filter-label{
-	font-size:13px;
-	color:#6d6c83;
-	line-height:30px;
-	background-color:#F8F8F8;
-	text-indent:16px;
-	position:relative;
-}
-
-.card.streaming-setting .filter-type-wrapper .filter-label .range-text{
-	position:absolute;
-	right:15px;
-	top:0;
-	color:#6d6c83;
-}
-
-.card.streaming-setting .filter-type-wrapper .filtering-text{
-	margin:20px 0 10px;
-	position:relative;
-	height:15px;
-	font-size:13px;
-	color:#93939c;
-}
-
-.card.streaming-setting .filter-type-wrapper .filtering-text .free{
-	position:absolute;
-	left:16px;
-	top:0;
-}
-
-.card.streaming-setting .filter-type-wrapper .filtering-text .max-price{
-	position:absolute;
-	right:16px;
-	top:0;
-}
-
-.card.streaming-setting .filter-type-wrapper .filter-slider{
-	position:relative;
-	border:1px solid #ddd;
-	height:3px;
-	width:180px;
-	margin:0 auto 20px;
-	background-color:#EFEFEF;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	-ms-border-radius:5px;
-	-o-border-radius:5px;
-	border-radius:5px;
-}
-
-.card.streaming-setting .filter-type-wrapper .filter-slider .ui-slider-range.ui-widget-header{
-	background-color:#ff382e;
-	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff382e), color-stop(100%, #ff282e));
-	background:-webkit-linear-gradient(#ff382e,#ff282e);
-	background:-moz-linear-gradient(#ff382e,#ff282e);
-	background:-o-linear-gradient(#ff382e,#ff282e);
-	-pie-background:linear-gradient(#ff382e,#ff282e);
-	background:linear-gradient(#ff382e,#ff282e);
-	border:solid 1px #ff7400;
-	position:absolute;
-	top:-1px;
-	left:0;
-	height:100%;
-	z-index:1;
-	display:block;
-}
-
-.card.streaming-setting .filter-type-wrapper .filter-slider .ui-slider-handle{
-	behavior:url(/PIE.htc);
-	position:relative;
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-ms-border-radius:50%;
-	-o-border-radius:50%;
-	border-radius:50%;
-	position:absolute;
-	margin-left:-8px;
-	margin-top:-7px;
-	z-index:1;
-	width:15px;
-	display:inline-block;
-	height:15px;
-	background-color:white;
-	border:1px solid #ff382e;
-}
-
-.card.streaming-setting .filter-type-wrapper .filter-slider .ui-slider-handle:focus,.card.streaming-setting .filter-type-wrapper .filter-slider .ui-slider-handle:active{
-	outline:0 none;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor{
-	position:relative;
-	border-bottom:1px solid #e4e5e7;
-	padding:0 16px;
-	height:50px;
-	cursor:pointer;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor .name{
-	text-indent:-9999px;
-	overflow:hidden;
-	display:block;
-	position:absolute;
-	left:16px;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor .check{
-	position:absolute;
-	right:16px;
-	top:15px;
-	width:20px;
-	height:20px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -2740px;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.gomtv .name{
-	top:17px;
-	width:72px;
-	height:16px;
-	background-position:0 -689px;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.hoppin .name{
-	top:15px;
-	width:58px;
-	height:20px;
-	background-position:0 -545px;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.googleplay .name{
-	top:12px;
-	width:102px;
-	height:26px;
-	background-position:0 -365px;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.tving .name{
-	top:15px;
-	width:50px;
-	height:20px;
-	background-position:0 -283px;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.on .check{
-	display:block;
-	background-position:0 -2720px;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor.not-filter{
-	cursor:default;
-}
-
-.card.streaming-setting .filter-type-wrapper .vendor-list .vendor:last-child{
-	border-bottom:0 none;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.ollehtv .name{
-	top:17px;
-	width:70px;
-	height:16px;
-	background-position:0 -585px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.skylife .name{
-	top:11.5px;
-	width:84px;
-	height:28px;
-	background-position:0 -198px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.skbbtv .name{
-	top:12px;
-	width:40px;
-	height:26px;
-	background-position:0 -741px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.lguplustvg .name{
-	top:12px;
-	width:72px;
-	height:22px;
-	background-position:0 -343px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.hellotv .name{
-	top:11.5px;
-	width:72px;
-	height:20px;
-	background-position:0 -721px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor .check{
-	background-position:0 -2528px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.ollehtv .name{
-	background-position:0 -601px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.skylife .name{
-	background-position:0 -142px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.skbbtv .name{
-	background-position:0 -617px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.lguplustvg .name{
-	background-position:0 -60px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on.hellotv .name{
-	background-position:0 -525px;
-}
-
-.card.streaming-setting.iptv-setting .filter-type-wrapper .vendor-list .vendor.on .check{
-	background-position:0 -2486px;
-}
-
-.card.streaming-setting.iptv-setting.not-yet .filter-type-wrapper{
-	bottom:150px;
-}
-
-.card.streaming-setting.iptv-setting.not-yet .filter-type-wrapper .price-filter{
-	display:none;
-}
-
-.card.streaming-setting.iptv-setting.not-yet .filter-type-wrapper .vendor-list .vendor:last-child{
-	border-bottom:1px solid #e4e5e7;
-}
-
-#evalmore-cateogries-card.card{
-	overflow:hidden;
-}
-
-#evalmore-cateogries-card.card .categories .category,#evalmore-cateogries-card.card .categories .viewall{
-	height:45.5px;
-	padding-left:15px;
-	border-bottom:1px solid #EEEEEE;
-	cursor:pointer;
-}
-
-#evalmore-cateogries-card.card .categories .category .text,#evalmore-cateogries-card.card .categories .category a,#evalmore-cateogries-card.card .categories .viewall .text,#evalmore-cateogries-card.card .categories .viewall a{
-	display:inline-block;
-	line-height:46px;
-	font-size:14px;
-	color:#6d6c83;
-	position:relative;
-}
-
-#evalmore-cateogries-card.card .categories .category .text .highlight,#evalmore-cateogries-card.card .categories .category a .highlight,#evalmore-cateogries-card.card .categories .viewall .text .highlight,#evalmore-cateogries-card.card .categories .viewall a .highlight{
-	display:none;
-	position:absolute;
-	bottom:0;
-	left:0;
-	height:3px;
-	width:100%;
-	background-color:#ff382e;
-}
-
-#evalmore-cateogries-card.card .categories .category.on .text,#evalmore-cateogries-card.card .categories .viewall.on .text{
-	color:#ff382e;
-}
-
-#evalmore-cateogries-card.card .categories .category.on .text .highlight,#evalmore-cateogries-card.card .categories .viewall.on .text .highlight{
-	display:block;
-}
-
-#evalmore-cateogries-card.card .categories .viewall{
-	padding-left:0;
-	text-align:center;
-	border-bottom:0 none;
-}
-
-#evalmore-cateogries-card.card .categories .viewall a{
-	display:block;
-	color:#ff382e;
-}
-
-
-/*일단 이 아래는 미니멀라이즈 하던말던 문제 없음*/
-/*0.0*/
-@keyframes kwzMove{
-	0%{
-    	background-position:0% 0%;
-    }
-    
-    12%{
-    	background-position:50% 50%;
-    }
-    
-    25%{
-    	background-position:0% 100%;
-    }
-    
-    37%{
-    	background-position:50% 50%;
-    }
-    
-    50%{
-    	background-position:100% 100%;
-    }
-    
-    62%{
-    	background-position:50% 50%;
-    }
-    
-    75%{
-    	background-position:100% 0%;
-    }
-    
-    100%{
-    	background-position:50% 50%;
-    }
-}
-@-webkit-keyframes kwzMove{
-	0%{
-    	background-position:0% 0%;
-    }
-    
-    12%{
-    	background-position:50% 50%;
-    }
-    
-    25%{
-    	background-position:0% 100%;
-    }
-    
-    37%{
-    	background-position:50% 50%;
-    }
-    
-    50%{
-    	background-position:100% 100%;
-    }
-    
-    62%{
-    	background-position:50% 50%;
-    }
-    
-    75%{
-    	background-position:100% 0%;
-    }
-    
-    100%{
-    	background-position:50% 50%;
-    }
-}
-
 #contents{
-	overflow:hidden;
+	margin-top:70px;
 }
 
-#contents .kwz{
-	width:100%;
-	position:fixed;
-	left:0;
-	top:0;
-}
-
-#contents .kwz .items .item{
-	background-size:cover;
-	background-position:50% 50%;
-	transition:background-size 4s linear;
-	-webkit-transition:background-size 4s linear;
-	-ms-behavior:url(/backgroundsize.min.htc);
-}
-
-#contents .kwz .items .item .gradation{
-	position:absolute;
-	left:0;
-	top:0;
-	width:100%;
-	height:100%;
-	background:url(https://d12hfz37g51hrt.cloudfront.net/assets/gradations/gradation_648-eccda2a628b8561ae98853c75947fa64.png) 0 0 repeat-x;
-	background-size:contain;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper{
-	position:absolute;
-	bottom:50px;
-	left:10px;
-	width:100%;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc{
+#searched_movies_title{
+	padding:30px 0 20px;
+	width:1180px;
+	color:#555;
 	margin:0 auto;
-	color:white;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating{
-	margin-bottom:18px;
-	color:white;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating .my-predicted-rating,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating .partner-predicted-rating{
-	display:inline-block;
-	position:relative;
-	padding-left:30px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating .my-predicted-rating img,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating .partner-predicted-rating img{
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-ms-border-radius:50%;
-	-o-border-radius:50%;
-	border-radius:50%;
-	behavior:url(/PIE.htc);
-	position:relative;
-	position:absolute;
-	top:0;
-	left:0;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating .my-predicted-rating .number,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating .partner-predicted-rating .number{
-	font-size:20px;
-	line-height:30px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating .my-predicted-rating{
-	margin-right:5px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc .predicted-rating .partner-predicted-rating{
-	margin-left:5px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dt{
-	font-size:18px;
-	margin-bottom:20px;
-	color:#fff;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd{
-	width:500px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .title{
-	display:block;
-	margin-bottom:20px;
-	font-size:32px;
-	color:#fff;
-	cursor:pointer;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .title:hover{
-	color:#5b5cb5;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc{
-	line-height:28px;
 	font-size:16px;
-	color:#fff;
 }
 
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .play-store{
-	display:inline-block;
-	width:173px;
-	height:53px;
-	background-position:0 -1027px;
+#searched_movies_title #search_query{
+	color:#79b3d4;
+	font-weight:bold;
 }
 
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .play-store:hover{
-	background-position:0 -1080px;
+#search-tab-wrapper{
+	width:1180px;
+	margin:0 auto;
+	border-bottom:1px solid #D5D5D5;
 }
 
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .play-store:active{
-	background-position:0 -921px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .app-store{
-	display:inline-block;
-	width:165px;
-	height:53px;
-	background-position:0 -1133px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .app-store:hover{
-	background-position:0 -1186px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .app-store:active{
-	background-position:0 -974px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .popup-involve-movies{
-	color:#fff;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation{
-	display:block;
-	margin-top:10px;
-	font-weight:normal;
+#search-tab-wrapper .tab{
 	position:relative;
-	cursor:default;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .text{
-	position:relative;
-	padding-left:27px;
+	width:120px;
+	height:50px;
+	color:#6d6c83;
 	font-size:14px;
-	padding-right:20px;
-	margin-right:20px;
+	float:left;
+	margin-bottom:-1px;
+	line-height:50px;
+	text-align:center;
 }
 
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .text .icon{
+#search-tab-wrapper .tab .highlight{
+	display:none;
 	position:absolute;
-	left:0px;
-	top:1px;
-	width:19px;
-	height:13px;
-	background-position:0 -3180px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .text .bar{
-	position:absolute;
-	right:0;
-	top:1px;
-	width:1px;
-	height:15px;
+	left:0;
+	top:0;
+	width:100%;
+	height:3px;
 	background-color:#ff382e;
 }
 
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list{
-	position:absolute;
-	top:1px;
-	left:110px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item{
-	display:inline-block;
-	height:20px;
-	margin:0 3px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item a{
-	display:block;
-	color:white;
-	text-indent:-9999px;
-	overflow:hidden;
-	height:100%;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.lotte_id a{
-	width:140px;
-	background-position:0 -781px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.lotte_id a:hover,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.lotte_id a.logo_lottecinema_hover,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.lotte_id a.logo_lottecinema-hover{
-	background-position:0 -323px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.megabox_id a{
-	width:94px;
-	background-position:0 -801px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.megabox_id a:hover,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.megabox_id a.logo_megabox_hover,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .reservation .reservation-list .theater-item.megabox_id a.logo_megabox-hover{
-	background-position:0 -459px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .campaign-popup{
-	display:block;
-	margin-top:10px;
-	text-align:center;
-	font:inherit;
-	font-size:14px;
-	font-weight:700;
-	width:120px;
-	height:32px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	-ms-border-radius:5px;
-	-o-border-radius:5px;
-	border-radius:5px;
-	cursor:pointer;
-	background-color:transparent;
-	border:1px solid #c0c0c6;
-	color:#FFFFFF;
-	border-color:#ff382e;
-	font-weight:normal;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .campaign-popup:hover{
-	background-color:#FF5148;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .campaign-popup:focus{
-	outline:0;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .campaign-popup:hover{
-	border-color:#ff382e;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor{
-	display:block;
-	position:relative;
-	position:relative;
-	height:20px;
-	line-height:20px;
-	font-size:14px;
-	color:#6d6c83;
-	color:white;
-	margin-top:5px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor .price{
-	position:relative;
-	display:inline-block;
-	line-height:14px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor .price .vendor-logo{
-	display:block;
-	position:absolute;
-	left:0;
-	top:0;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor .link{
-	position:absolute;
-	right:10px;
-	top:9px;
-	display:block;
-	line-height:normal;
-	padding:8px 10px;
+#search-tab-wrapper .tab .count{
+	font-size:13px;
 	color:#93939c;
-	font-size:12px;
-	border:1px solid #e3e3e3;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	-ms-border-radius:3px;
-	-o-border-radius:3px;
-	border-radius:3px;
 }
 
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor .link .icon{
-	position:absolute;
-	left:8px;
-	top:10px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.gomtv .price{
-	padding-left:85px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.gomtv .price .vendor-logo{
-	width:73px;
-	height:16px;
-	top:-2px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -689px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.hoppin .price{
-	padding-left:71px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.hoppin .price .vendor-logo{
-	width:59px;
-	height:20px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -545px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.tving .price{
-	padding-left:63px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.tving .price .vendor-logo{
-	width:51px;
-	height:20px;
-	top:-5px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -283px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.googleplay .price{
-	padding-left:117px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.googleplay .price .vendor-logo{
-	width:102px;
-	height:26px;
-	top:-9px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -365px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skbbtv .price{
-	padding-left:43px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skbbtv .price .vendor-logo{
-	width:29px;
-	height:19px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -905px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skbbtv.home-cover-vendor .price{
-	padding-left:48px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skbbtv.home-cover-vendor .price .vendor-logo{
-	width:40px;
-	height:26px;
-	background-position:0 -663px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplustvg .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplushdtv .price{
-	padding-left:54px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplustvg .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplushdtv .price .vendor-logo{
-	width:40px;
-	height:12px;
-	top:0px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -271px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplustvg.home-cover-vendor .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplushdtv.home-cover-vendor .price{
-	padding-left:82px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplustvg.home-cover-vendor .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.lguplushdtv.home-cover-vendor .price .vendor-logo{
-	top:0px;
-	width:72px;
-	height:22px;
-	background-position:0 -411px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.hellotv .price{
-	padding-left:64px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.hellotv .price .vendor-logo{
-	width:51px;
-	height:14px;
-	top:-1px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -767px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.hellotv.home-cover-vendor .price{
-	padding-left:87px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.hellotv.home-cover-vendor .price .vendor-logo{
-	width:72px;
-	height:20px;
-	background-position:0 -505px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skylife .price{
-	padding-left:73px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skylife .price .vendor-logo{
-	width:59px;
-	height:20px;
-	top:-2px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -821px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skylife.home-cover-vendor .price{
-	padding-left:96px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skylife.home-cover-vendor .price .vendor-logo{
-	width:84px;
-	height:28px;
-	background-position:0 -170px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.homechoice .price{
-	padding-left:110px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.homechoice .price .vendor-logo{
-	width:98px;
-	height:20px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -40px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.jeulgam .price{
-	padding-left:40px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.jeulgam .price .vendor-logo{
-	width:24px;
-	height:19px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -82px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.nstore .price{
-	padding-left:83px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.nstore .price .vendor-logo{
-	width:70px;
-	height:19px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 0;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.tstore .price{
-	padding-left:70px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.tstore .price .vendor-logo{
-	width:56px;
-	height:19px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -20px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.ollehtv .price{
-	padding-left:80px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.ollehtv .price .vendor-logo{
-	width:69px;
-	height:19px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -122px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.ollehmobile .price{
-	padding-left:88px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.ollehmobile .price .vendor-logo{
-	width:75px;
-	height:19px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -102px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.youtube .price{
-	padding-left:59px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.youtube .price .vendor-logo{
-	width:48px;
-	height:19px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -226px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episode .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodetwo .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodethree .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodefour .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodefive .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodesix .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodeseven .price,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodeeight .price{
-	padding-left:59px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episode .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodetwo .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodethree .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodefour .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodefive .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodesix .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodeseven .price .vendor-logo,#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.episodeeight .price .vendor-logo{
-	width:48px;
-	height:19px;
-	top:-3px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -226px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor .price{
-	line-height:23px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .home-cover-vendor.skylife .price{
-	line-height:31px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper{
-	position:relative;
-	padding-left:105px;
-	height:34px;
-	line-height:36px;
-	margin-top:5px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper .watch-link{
-	display:block;
-	position:absolute;
-	left:0;
-	top:0;
-	text-align:center;
-	font:inherit;
-	font-size:14px;
-	font-weight:700;
-	width:70px;
-	height:32px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	-ms-border-radius:5px;
-	-o-border-radius:5px;
-	border-radius:5px;
-	cursor:pointer;
-	background-color:transparent;
-	border:1px solid #c0c0c6;
-	color:#FFFFFF;
-	border-color:#93939c;
-	padding-left:27px;
-	line-height:32px;
-	font-weight:normal;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper .watch-link:hover{
-	background-color:#FF5148;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper .watch-link:focus{
-	outline:0;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper .watch-link:hover{
-	border-color:#ff382e;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper .watch-link:hover{
-	background-color:transparent;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper .watch-link .icon{
-	position:absolute;
-	left:10px;
-	top:5px;
-	display:block;
-	width:20px;
-	height:20px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper.gomtv .watch-link .icon{
-	width:21px;
-	background-position:0 -935px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper.googleplay .watch-link .icon{
-	width:21px;
-	height:24px;
-	top:3px;
-	background-position:0 -881px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper.hoppin .watch-link .icon{
-	background-position:0 -841px;
-}
-
-#contents .kwz .items .item .kwz-desc-wrapper .kwz-desc dd .movie-desc .watch-link-wrapper.tving .watch-link .icon{
-	background-position:0 -861px;
-}
-
-#contents .kwz .bjqs-markers-wrapper{
-	position:absolute;
-	left:0px;
-	bottom:0px;
-	width:100%;
-}
-
-#contents .kwz .bjqs-markers-wrapper .bjqs-markers{
-	margin:0 auto 35px;
-	text-align:center;
-}
-
-#contents .kwz .bjqs-markers-wrapper .bjqs-markers li{
-	display:inline-block;
-}
-
-#contents .kwz .bjqs-markers-wrapper .bjqs-markers li a{
-	text-indent:-99999px;
-	display:inline-block;
-	margin-right:10px;
-	width:10px;
-	height:10px;
-	background-color:#fff;
-	background-color:rgba(255,255,255,0.5);
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-ms-border-radius:50%;
-	-o-border-radius:50%;
-	border-radius:50%;
-	behavior:url(/PIE.htc);
-	position:relative;
-}
-
-#contents .kwz .bjqs-markers-wrapper .bjqs-markers li.active-marker a{
-	background-color:#fff;
-	background-color:#fff;
-}
-
-#contents .kwz .bjqs-controls .bjqs-prev a,#contents .kwz .bjqs-controls .bjqs-next a{
-	display:none;
-	z-index:1;
-	color:white;
-	font-size:40px;
-}
-
-#contents .kwz:hover .bjqs-controls .bjqs-prev a,#contents .kwz:hover .bjqs-controls .bjqs-next a{
-	display:block;
-	width:23px;
-	height:42px;
-	text-indent:-9999px;
-	overflow:hidden;
-}
-
-#contents .kwz:hover .bjqs-controls .bjqs-prev a{
-	left:20px;
-	background-position:0 -1719px;
-}
-
-#contents .kwz:hover .bjqs-controls .bjqs-prev a:hover{
-	background-position:0 -1909px;
-}
-
-#contents .kwz:hover .bjqs-controls .bjqs-prev a:active{
-	background-position:0 -1825px;
-}
-
-#contents .kwz:hover .bjqs-controls .bjqs-next a{
-	right:20px;
-	background-position:0 -1783px;
-}
-
-#contents .kwz:hover .bjqs-controls .bjqs-next a:hover{
-	background-position:0 -1867px;
-}
-
-#contents .kwz:hover .bjqs-controls .bjqs-next a:active{
-	background-position:0 -1677px;
-}
-
-#contents .recommend-wrapper{
-	width:100%;
-	position:relative;
+#search-tab-wrapper .tab.on{
+	color:#403f4e;
 	background-color:#e5e5e5;
-	padding:20px 0 100px;
+	border-left:1px solid #D5D5D5;
+	border-right:1px solid #D5D5D5;
 }
 
-#contents .recommend-wrapper #home-banner{
-	width:1400px;
-	margin:20px auto;
-	text-align:center;
-	position:relative;
-}
-
-#contents .recommend-wrapper #home-banner .go-to-evalmore{
-	position:absolute;
-	left:30px;
-	bottom:20px;
+#search-tab-wrapper .tab.on .highlight{
 	display:block;
-	width:150px;
-	height:28px;
-	text-indent:-9999px;
-	overflow:hidden;
 }
 
-#contents .recommend-wrapper #home-banner .close{
-	display:block;
-	position:absolute;
-	cursor:pointer;
-	right:3px;
-	top:3px;
-	width:22px;
-	height:22px;
-	text-indent:-9999px;
-	overflow:hidden;
-	background-position:0 -1761px;
+#searched_movies_list,#searched_users_list{
+	padding-top:30px;
+	width:1200px;
+	margin:0 auto;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section{
-	position:relative;
-	margin:50px auto 0;
-	height:690px;
+#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1{
+	height:auto;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section .title{
-	margin-left:10px;
-	font-size:20px;
-	font-weight:bold;
-	margin-bottom:10px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .view-all-link{
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:14px;
-	color:#ff382e;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .slider-wrapper{
-	overflow:hidden;
-	width:100%;
-	height:100%;
-	position:relative;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .slider-wrapper .vertical-list{
-	overflow:hidden;
-	position:absolute;
-	left:0;
-	top:0;
-	width:1000000px;
-	transition:-webkit-transform 0.5s linear;
-	transition:-moz-transform 0.5s linear;
-	transition:-ms-transform 0.5s linear;
-	-webkit-transition:-webkit-transform 0.5s linear;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .slider-wrapper .vertical-list .card.upper,#contents .recommend-wrapper .sections-wrapper .section .slider-wrapper .vertical-list .card.bottom{
-	height:286px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .slider-wrapper .vertical-list .card.upper{
-	margin-bottom:20px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .prev-btn,#contents .recommend-wrapper .sections-wrapper .section .next-btn{
-	position:absolute;
-	top:340px;
-	display:block;
-	width:23px;
-	height:42px;
-	cursor:pointer;
-	text-indent:-9999px;
-	overflow:hidden;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .prev-btn{
-	left:-40px;
-	background-position:0 -1551px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .prev-btn:hover{
-	background-position:0 -1425px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .prev-btn:active{
-	background-position:0 -1635px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .next-btn{
-	right:-40px;
-	background-position:0 -1593px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .next-btn:hover{
-	background-position:0 -1467px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section .next-btn:active{
-	background-position:0 -1509px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday{
-	overflow:visible;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .slider-wrapper,#contents .recommend-wrapper .sections-wrapper .section.nowaday .slider-wrapper .vertical-list{
-	overflow:visible;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .slider-wrapper .left-5,#contents .recommend-wrapper .sections-wrapper .section.nowaday .slider-wrapper .vertical-list .left-5{
-	display:none;
-}
-
-@media screen and (min-width: 1600px){
-	#contents .recommend-wrapper .sections-wrapper .section.nowaday .slider-wrapper .left-5,#contents .recommend-wrapper .sections-wrapper .section.nowaday .slider-wrapper .vertical-list .left-5{
-    	display:block;
-    }
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .head{
-	position:relative;
-	color:#929192;
-	border-bottom:1px solid #f1f1f1;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card{
-	height:314px;
-	overflow:visible;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card span[class^=icon-]{
-	display:inline-block;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .icon-wish{
-	vertical-align:text-top;
-	background-position:0 -2987px;
-	width:15px;
-	height:13px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .icon-meh{
-	vertical-align:text-top;
-	background-position:0 -2848px;
-	width:14px;
-	height:14px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .premiere{
-	margin-left:6px;
-	display:inline-block;
-	text-align:center;
-	width:60px;
-	height:18px;
-	line-height:20px;
-	font-size:11px;
-	font-weight:bold;
-	color:#ff382e;
-	border:1px solid #ff382e;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	-ms-border-radius:3px;
-	-o-border-radius:3px;
-	border-radius:3px;
-	behavior:url(/PIE.htc);
-	position:relative;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .poster{
-	-moz-border-radius-topleft:6px;
-	-webkit-border-top-left-radius:6px;
-	border-top-left-radius:6px;
-	-moz-border-radius-bottomleft:6px;
-	-webkit-border-bottom-left-radius:6px;
-	border-bottom-left-radius:6px;
-	float:left;
-	width:220px;
-	height:100%;
-	display:inline-block;
-	background-size:cover;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .poster .movie-card,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .poster .poster-wrapper{
-	height:100%;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .poster .movie-card{
-	-moz-border-radius-topright:0;
-	-webkit-border-top-right-radius:0;
-	border-top-right-radius:0;
+#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .poster-wrapper .poster,#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .poster-wrapper .gradation,#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .poster-wrapper .action-wrapper{
+	-moz-border-radius-bottomleft:0;
+	-webkit-border-bottom-left-radius:0;
+	border-bottom-left-radius:0;
 	-moz-border-radius-bottomright:0;
 	-webkit-border-bottom-right-radius:0;
 	border-bottom-right-radius:0;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content{
-	position:relative;
-	float:left;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	width:240px;
-	height:100%;
-	padding:18px;
+#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .search-footer{
+	overflow:hidden;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-bottom-right-radius:5px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .user-info{
-	position:relative;
-	padding:0 0 0 50px;
-	margin-bottom:15px;
+#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .search-footer .search{
+	padding:20px;
+	border-top:1px solid #e7e0d2;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .user-info .thumbnail{
-	position:absolute;
-	left:0;
-	top:0;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .user-info .thumbnail img{
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-ms-border-radius:50%;
-	-o-border-radius:50%;
-	border-radius:50%;
-	behavior:url(/PIE.htc);
-	position:relative;
-	width:40px;
-	height:40px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .user-info .thumbnail .icon-official-account{
-	background-position:0 -2592px;
-	width:20px;
-	height:20px;
-	position:absolute;
-	right:-2px;
-	bottom:3px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .user-info .name{
+#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .search-footer .search.title{
+	padding-top:17px;
+	padding-bottom:18px;
+	color:#79b3d4;
 	font-size:14px;
-	color:#403f4e;
-	line-height:22px;
-	display:block;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .user-info .meh,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .user-info .wish{
-	font-size:13px;
-	color:#6d6c83;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .movie-info{
-	float:left;
-	width:190px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .movie-info .title{
-	font-size:18px;
-	color:#403f4e;
-	margin-bottom:7px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .movie-info .info{
-	display:block;
-	font-size:12px;
-	line-height:18px;
-	color:#93939c;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions{
-	position:relative;
-	width:12px;
-	float:right;
-	text-align:center;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions>a{
-	display:block;
+	font-weight:normal;
+	background-color:#fff;
 	cursor:pointer;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions>a .icon-more{
-	background-position:0 -3241px;
-	width:4px;
-	height:16px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions .edit-methods{
-	display:none;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions:hover .edit-methods{
-	border:1px solid #c0c0c6;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	-ms-border-radius:3px;
-	-o-border-radius:3px;
-	border-radius:3px;
-	behavior:url(/PIE.htc);
-	position:relative;
 	display:block;
-	width:55px;
-	position:absolute;
-	right:-4px;
-	z-index:1;
-	background-color:white;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions:hover .edit-methods li{
-	height:26px;
-	line-height:26px;
-	font-size:12px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions:hover .edit-methods li a{
-	display:block;
-	color:#93939c;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .edit-actions:hover .edit-methods li:first-child{
-	border-bottom:1px solid #c0c0c6;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment{
-	clear:both;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .rating,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .meh,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .wish{
-	display:inline-block;
-	height:17px;
-	line-height:17px;
+#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .search-footer .search.title .year-text{
 	margin-top:5px;
-	margin-bottom:15px;
-	font-size:13px;
-	color:#6d6c83;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment p{
-	font-size:14px;
-	line-height:22px;
-	color:#6d6c83;
-	white-space:pre-wrap;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .watch-record{
-	position:absolute;
-	left:18px;
-	right:18px;
-	bottom:42px;
-	font-size:11px;
-	color:#c0c0c6;
-	text-align:right;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .watch-record a{
-	color:#5b5cb5;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .actions{
-	position:absolute;
-	bottom:0;
-	left:18px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .actions .like-actions{
-	float:left;
-	display:inline-block;
-	line-height:24px;
-	padding-bottom:14px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .actions .report-actions{
-	display:none;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .date{
-	line-height:24px;
-	position:absolute;
-	right:18px;
-	bottom:14px;
 	font-size:12px;
 	color:#93939c;
-	text-align:right;
+	letter-spacing:-0.5px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .spoiler-caution{
-	position:absolute;
-	background-color:white;
-	padding-top:130px;
-	top:80px;
-	width:204px;
-	padding-bottom:20px;
-	cursor:pointer;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .spoiler-caution .icon{
-	display:block;
-	width:60px;
-	height:50px;
-	position:absolute;
-	top:62px;
-	left:50%;
-	margin-left:-30px;
-	background-position:0 -997px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .spoiler-caution .caution-text{
-	display:block;
-	text-align:center;
+#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .search-footer .search.summary{
+	color:#777;
 	font-size:12px;
-	color:#93939c;
 	line-height:18px;
+	background-color:#f9f8f4;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions{
-	position:relative;
-	display:block;
-	float:left;
-	line-height:24px;
-	margin-left:20px;
-	padding-bottom:14px;
+#searched_movies_list .movie-card-wrapper .movie-card.size-1x1.poster-type.hei-1 .search-footer .highlighted{
+	font-weight:bold;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions .icon-report{
-	background-position:0 -3013px;
-	width:16px;
-	height:17px;
+#searched_users_list{
+	padding-top:20px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions.reported .icon-report{
-	background-position:0 -2918px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions ul{
-	display:none;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions:hover ul{
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	-ms-border-radius:3px;
-	-o-border-radius:3px;
-	border-radius:3px;
-	behavior:url(/PIE.htc);
-	position:relative;
-	display:block;
-	position:absolute;
-	z-index:1;
-	width:120px;
-	margin-top:8px;
-	left:50%;
-	margin-left:-70px;
-	padding:10px;
-	background-color:#424242;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions:hover ul:after{
-	content:" ";
-	pointer-events:none;
-	position:absolute;
-	bottom:100%;
-	left:50%;
-	width:0;
-	height:0;
-	border:8px solid transparent;
-	border-bottom-color:#424242;
-	margin-left:-8px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions:hover ul a{
-	display:block;
-	width:100%;
-	text-align:center;
-	border:none;
-	outline:none;
-	padding:0;
-	background-color:transparent;
-	font-size:11px;
-	color:#c0c0c6;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card:hover .comment .actions .report-actions:hover ul a:hover{
-	color:#ff382e;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .rating,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .meh,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .wish,#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .comment .premiere{
-	display:none;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .spoiler-caution{
-	padding-top:120px;
-	top:90px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .content .spoiler-caution .icon{
-	top:52px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .comment.card .movie-info .title{
-	display:none;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb{
-	padding:15px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend .invite-friend-title,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend .connect-fb-title,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb .invite-friend-title,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb .connect-fb-title,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend .invite-friend-title,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend .connect-fb-title,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb .invite-friend-title,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb .connect-fb-title{
-	color:#403f4e;
-	margin-bottom:20px;
-	font-size:18px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend .desc,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb .desc,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend .desc,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb .desc{
-	color:#6d6c83;
-	line-height:18px;
-	font-size:14px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend .btn,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb .btn,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend .btn,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb .btn{
-	color:#ff382e;
-	text-decoration:underline;
-	display:block;
-	margin:45px auto 0;
-	text-align:center;
-	font-size:14px;
-	position:relative;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend .btn .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb .btn .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend .btn .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb .btn .icon{
-	position:absolute;
-	top:0;
-	display:block;
-	left:50px;
-	width:105px;
-	height:93px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend .btn,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend .btn{
-	padding-top:137px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .invite-friend .btn .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .invite-friend .btn .icon{
-	background-position:0 -1332px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb .btn,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb .btn{
-	padding-top:115px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .invite-friend-wrapper.card .connect-fb .btn .icon,#contents .recommend-wrapper .sections-wrapper .section.nowaday .connect-fb-wrapper.card .connect-fb .btn .icon{
-	background-position:0 -1239px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card{
+#searched_users_list .card{
 	width:220px;
 	height:184px;
 	text-align:center;
-	height:314px;
-	background-color:#FAFAFA;
-	overflow:hidden;
+	margin:10px;
+	float:left;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .thumbnail{
+#searched_users_list .card .thumbnail{
 	position:relative;
 	display:inline-block;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .thumbnail img{
+#searched_users_list .card .thumbnail img{
 	margin-top:30px;
 	width:50px;
 	height:50px;
@@ -13841,7 +11724,7 @@ svg.rating-chart path.area{
 	position:relative;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .thumbnail .icon-official-account{
+#searched_users_list .card .thumbnail .icon-official-account{
 	position:absolute;
 	right:-2px;
 	bottom:3px;
@@ -13850,78 +11733,78 @@ svg.rating-chart path.area{
 	height:20px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .name{
+#searched_users_list .card .name{
 	display:block;
 	margin-top:7px;
 	font-size:14px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count{
+#searched_users_list .card .activity-count{
 	margin-top:10px;
 	font-size:12px;
 	color:#93939c;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .watched{
+#searched_users_list .card .activity-count .watched{
 	display:inline-block;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .wished,#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .comment,#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .follower{
+#searched_users_list .card .activity-count .wished,#searched_users_list .card .activity-count .comment,#searched_users_list .card .activity-count .follower{
 	display:inline-block;
 	margin-left:6px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .icon-watched{
+#searched_users_list .card .activity-count .icon-watched{
 	display:inline-block;
 	background-position:0 -3141px;
 	width:15px;
 	height:13px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .icon-wished{
+#searched_users_list .card .activity-count .icon-wished{
 	display:inline-block;
 	background-position:0 -2974px;
 	width:13px;
 	height:13px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .icon-comment{
+#searched_users_list .card .activity-count .icon-comment{
 	display:inline-block;
 	background-position:0 -3128px;
 	width:13px;
 	height:13px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .icon-follower{
+#searched_users_list .card .activity-count .icon-follower{
 	display:inline-block;
 	background-position:0 -2862px;
 	width:18px;
 	height:13px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .follow-actions .form-follow button{
+#searched_users_list .card .follow-actions .form-follow button{
 	font-weight:normal;
 	margin-top:6px;
 	background-color:transparent;
 	color:#ff382e;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .follow-actions .form-follow button:hover{
+#searched_users_list .card .follow-actions .form-follow button:hover{
 	background-color:#ff382e;
 	color:#FFFFFF;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .follow-actions .form-unfollow button{
+#searched_users_list .card .follow-actions .form-unfollow button{
 	font-weight:normal;
 	margin-top:6px;
 	color:#93939c;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .follow-actions .form-unfollow button:hover{
+#searched_users_list .card .follow-actions .form-unfollow button:hover{
 	color:#FFFFFF;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card a.movies{
+#searched_users_list .card a.movies{
 	display:inline-block;
 	font:inherit;
 	font-size:14px;
@@ -13943,238 +11826,37 @@ svg.rating-chart path.area{
 	color:#93939c;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card a.movies:hover{
+#searched_users_list .card a.movies:hover{
 	background-color:#FF5148;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card a.movies:focus{
+#searched_users_list .card a.movies:focus{
 	outline:0;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card a.movies:hover{
+#searched_users_list .card a.movies:hover{
 	border-color:#ff382e;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card a.movies:hover{
+#searched_users_list .card a.movies:hover{
 	color:#FFFFFF;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .user-title{
-	height:50px;
-	line-height:50px;
-	text-indent:15px;
-	text-align:left;
-	font-size:14px;
-	color:#000000;
-	border-bottom:1px solid #F2F2F2;
-	background-color:#fff;
+#searched_users_list .card .thumbnail{
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	border-radius:50%;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .name{
-	margin-top:12px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .reason{
-	margin-top:10px;
-	font-size:12px;
-	color:#93939c;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .activity-count .wished{
-	display:none;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.nowaday .follow.card .follow-actions{
-	height:96px;
-	margin-top:15px;
-	padding-top:15px;
-	background-color:#fff;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .head{
-	color:#6d6c83;
+.no_result{
+	color:#555;
 	font-size:16px;
-	border-bottom:1px solid #F3F3F5;
+	text-align:center;
+	margin-top:200px;
 }
 
-#contents .recommend-wrapper .sections-wrapper .section.media .card.upper,#contents .recommend-wrapper .sections-wrapper .section.media .card.bottom{
-	height:246px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list{
-	display:none;
-	padding:35px 15px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list .item{
-	position:relative;
-	padding-left:110px;
-	height:80px;
-	margin-bottom:30px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list .item .news-link{
-	display:block;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list .item .news-link .img{
-	position:absolute;
-	left:0;
-	top:0;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list .item .news-link .news-title{
-	font-size:14px;
-	color:#6d6c83;
-	line-height:20px;
-	margin-bottom:8px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list .item .news-link .news-desc{
-	font-size:12px;
-	line-height:18px;
-	color:#93939c;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list .item .news-link .news-desc .date{
-	font-size:12px;
-	color:#c0c0c6;
-	margin-left:10px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list .item:last-child{
+.movie-detail .watcha-card{
 	margin-bottom:0;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.news .news-list.show{
-	display:block;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.trailer:hover{
-	cursor:pointer;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.trailer img{
-	-moz-border-radius-topleft:5px;
-	-webkit-border-top-left-radius:5px;
-	border-top-left-radius:5px;
-	-moz-border-radius-topright:5px;
-	-webkit-border-top-right-radius:5px;
-	border-top-right-radius:5px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.trailer .movie-desc{
-	padding:15px;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.trailer .movie-desc .trailer-title{
-	font-size:16px;
-	color:#6d6c83;
-}
-
-#contents .recommend-wrapper .sections-wrapper .section.media .card.trailer .movie-desc .title_eng,#contents .recommend-wrapper .sections-wrapper .section.media .card.trailer .movie-desc .trailer-desc{
-	padding-top:15px;
-	font-size:12px;
-	color:#93939c;
-	line-height:18px;
-}
-
-#contents .recommend-wrapper .sections-wrapper #genre-section{
-	height:370px;
-}
-
-#contents .recommend-wrapper .sections-wrapper #genre-section .prev-btn,#contents .recommend-wrapper .sections-wrapper #genre-section .next-btn{
-	top:177px;
-}
-
-#contents .recommend-wrapper .sections-wrapper #genre-section .card.genre{
-	background-size:cover;
-	background-position:center;
-	height:150px;
-	color:white;
-	position:relative;
-}
-
-#contents .recommend-wrapper .sections-wrapper #genre-section .card.genre a{
-	display:block;
-	position:absolute;
-	left:0;
-	top:0;
-	width:100%;
-	height:100%;
-}
-
-#contents .recommend-wrapper .sections-wrapper #genre-section .card.genre a .bg{
-	position:absolute;
-	left:0;
-	top:0;
-	display:block;
-	width:100%;
-	height:100%;
-	background-color:#b2b2b2;
-	background-color:rgba(0,0,0,0.3);
-}
-
-#contents .recommend-wrapper .sections-wrapper #genre-section .card.genre a .text{
-	color:white;
-	position:absolute;
-	font-size:18px;
-	text-align:center;
-	margin-top:65px;
-	display:block;
-	width:100%;
-	text-shadow:2px 2px #000000;
-}
-
-#contents .recommend-wrapper .sections-wrapper #genre-section .card.genre a:hover .bg{
-	background-color:#ffc38c;
-	background-color:rgba(255,122,0,0.45);
-}
-
-#contents .recommend-wrapper .sections-wrapper .prev-btn,#contents .recommend-wrapper .sections-wrapper .next-btn{
-	top:178px;
-}
-
-#contents .recommend-wrapper #dashboard{
-	background-color:#a6b3ba;
-	padding-top:100px;
-	height:250px;
-	width:100%;
-	color:white;
-	text-align:center;
-	font-size:60px;
-	font-weight:100;
-	letter-spacing:10px;
-}
-
-#contents .kwz{
-	height:600px !important;
-}
-
-#contents .recommend-wrapper{
-	margin-top:600px;
-}
-
-#contents .kwz .items,#contents .kwz .item{
-	height:100% !important;
-}
-
-@media screen and (min-height: 1300px){
-	#contents .kwz{
-    	height:700px !important;
-    }
-    
-    #contents .recommend-wrapper{
-    	margin-top:700px;
-    }
-}
-
-@media screen and (max-height: 1000px){
-	#contents .kwz{
-    	height:500px !important;
-    }
-    
-    #contents .recommend-wrapper{
-    	margin-top:500px;
-    }
 }
