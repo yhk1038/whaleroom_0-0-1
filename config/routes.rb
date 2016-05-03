@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  # devise_for :users
+  devise_for :users, controllers: {
+    registrations: 'users/registrations'
+  }
+  
   get 'song/song_save'
 
   get 'song/song_delete'
@@ -11,8 +16,11 @@ Rails.application.routes.draw do
 
   get 'crawl/tj_daily_popular'
 
+
+  # root :to => redirect('/users/sign_in')
+
   root 'gorae#entering'
-  
+
   match "/:controller(/:action(/:id))", :via => [:post, :get]
 
   # The priority is based upon order of creation: first created -> highest priority.
