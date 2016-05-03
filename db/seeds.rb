@@ -1,3 +1,6 @@
+User.create!([
+  {name: "sohn", nickname: "sohn", email: "sohn126@naver.com", encrypted_password: "$2a$11$KDA7ZoNbgvJdtNfBRarrL.G.L79idQNF7RVzpVdeLLIvhLSCJjqgq", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 2, current_sign_in_at: "2016-05-02 10:12:40", last_sign_in_at: "2016-05-01 15:33:55", current_sign_in_ip: "::1", last_sign_in_ip: "::1"}
+])
 Administer.create!([
   {username: "김용현", email: "yhk1038@hanmail.net", password: "ks0352ks"},
   {username: "hyebinni", email: "bkwkduswk@naver.com", password: "123456789"}
