@@ -71,7 +71,11 @@ class CrawlController < ApplicationController
     
     
     ## 정탐색 갯수 설정(파생탐색 및 탐색 손실은 측정하지 않음)
-    how_many_songs_do_you_want = params[:id].to_i
+    if params[:id].nil?
+      how_many_songs_do_you_want = 10000
+    else
+      how_many_songs_do_you_want = params[:id].to_i
+    end
     
     @must_break_id_limit_count = last_saved_song_count + how_many_songs_do_you_want
     # @must_break_id_limit_count = last_saved_song_count + how_many_songs_do_you_want
@@ -210,7 +214,7 @@ class CrawlController < ApplicationController
         
       break if Song.count >= @must_break_id_limit_count
       # break if num == @must_break_id_limit_count
-      break if num >= 82525426
+      break if num >= 83525426
       num += 1
     end
     
