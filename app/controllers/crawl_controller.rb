@@ -94,14 +94,33 @@ class CrawlController < ApplicationController
       
       
       @song_title = html_doc.css("div#body-content//div.info-zone//h2.name").inner_html.to_s.strip!
+      @song_ganre1 = html_doc.css("div#body-content//div.info-zone//ul.info-data//li:nth-child(3)//span.value").inner_html.to_s.split(' / ').first.to_s
+      @song_ganre2 = html_doc.css("div#body-content//div.info-zone//ul.info-data//li:nth-child(3)//span.value").inner_html.to_s.split(' / ').last.to_s
       
-      # @song_title = "제목이 발견되지 않는다"
-      if @song_title.length == 0
-        num += 1
-        next
-      end
+      # 다음 상황에서는 루프를 스킵한다.
+        # =>1. @song_title = "제목이 발견되지 않는다"
+        if @song_title.length == 0  
+          num += 1
+          next
+        end
+        
+        # =>2. @song_ganre1 == "CCM"
+        # =>3. @song_ganre1 == "클래식"
+        if @song_ganre1 == "CCM" || @song_ganre1 == "클래식"
+          num += 1
+          next
+        end
+        
+        # =>4. @song_ganre2 == "불교음악"
+        # =>5. @song_ganre2 == "뮤직테라피"
+        # =>6. @song_ganre2 == "뉴에이지"
+        if @song_ganre2 == "불교음악" || @song_ganre2 == "뮤직테라피" || @song_ganre2 == "뉴에이지"
+          num += 1
+          next
+        end
       
-      # @song_title = "제목 있다"
+      
+      # 루프가 스킵 되지 않았다면 본격적으로 데이터를 작성하자.
         # 임의로 때려넣은 지니넘버 주소에 노래정보 있는거 확인했으니까 
         # 긁어올거 일단 다 긁어오고나서 저장하자
           
@@ -112,10 +131,8 @@ class CrawlController < ApplicationController
           ## title(제목)
             song.title = @song_title
           ## ganre1(장르1)
-            @song_ganre1 = html_doc.css("div#body-content//div.info-zone//ul.info-data//li:nth-child(3)//span.value").inner_html.to_s.split(' / ').first.to_s
             song.ganre1 = @song_ganre1
           ## ganre2(장르2)
-            @song_ganre2 = html_doc.css("div#body-content//div.info-zone//ul.info-data//li:nth-child(3)//span.value").inner_html.to_s.split(' / ').last.to_s
             song.ganre2 = @song_ganre2
           ## runtime(재생시간)
             @runtime = html_doc.css("div#body-content//div.info-zone//ul.info-data//li:nth-child(4)//span.value").inner_html.to_s
