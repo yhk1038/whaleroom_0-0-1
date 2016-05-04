@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160501090107) do
+ActiveRecord::Schema.define(version: 20160503204836) do
 
   create_table "administers", force: :cascade do |t|
     t.string   "username"
@@ -19,6 +19,22 @@ ActiveRecord::Schema.define(version: 20160501090107) do
     t.string   "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "albums", force: :cascade do |t|
+    t.string   "title"
+    t.string   "ganre1"
+    t.string   "ganre2"
+    t.string   "publisher"
+    t.string   "agency"
+    t.string   "released_date"
+    t.text     "jacket"
+    t.integer  "artist_num"
+    t.text     "artist_photo"
+    t.string   "artist_name"
+    t.integer  "album_num"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "daily_tj_popular_ranks", force: :cascade do |t|
@@ -41,14 +57,22 @@ ActiveRecord::Schema.define(version: 20160501090107) do
   end
 
   create_table "songs", force: :cascade do |t|
+    t.integer  "album_id"
     t.string   "title"
-    t.string   "artist"
+    t.string   "ganre1"
+    t.string   "ganre2"
+    t.string   "runtime"
+    t.text     "lyrics"
+    t.integer  "artist_num"
+    t.integer  "album_num"
+    t.text     "artist_photo"
+    t.text     "jacket"
+    t.integer  "song_tjnum"
+    t.integer  "song_num"
     t.string   "lowkey"
     t.string   "highkey"
-    t.text     "tjnum"
-    t.text     "gininum"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   create_table "users", force: :cascade do |t|

@@ -68,6 +68,23 @@ class AdminController < ApplicationController
     render layout: "../admin_layouts/application.html.erb"
   end
   
+  def songs_info2
+    @song = Song.all
+    @top100 = DailyTjPopularRank.all
+    @mod_song = Song.find(params[:mod]) unless params[:mod] == nil
+    ### 노래방 번호 또는 지니뮤직 노래번호가 입력되지 않은 노래는
+    ### SongController에서 TJ 와 Ginnie 의 노래링크로 저장했으므로
+    ### 저장된 링크를 버튼으로 출력하여 이동 후 찾아서 저장하도록 한다.
+      # @song_miss = Array.new
+      # @song.each do |song|
+      #   if song.song_tjnum.to_s.length > 10 || song.song_num.to_s.length > 10
+      #     @song_miss << song
+      #   end
+      # end
+    
+    render layout: "../admin_layouts/application.html.erb"
+  end
+  
   def gui_vr_info
     @song = Song.all
     
