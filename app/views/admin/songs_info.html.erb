@@ -93,7 +93,7 @@
                     </tbody>
                 </table>
                 <div class="card-header">
-                    <h2>STEP 1. 노래별 음역대 <small>노래별 음역대를 입력하고 등록된 노래를 확인하는 테이블 입니다.</small></h2>
+                    <h2>STEP 1. 노래별 음역대 <small>노래별 음역대를 입력하고 등록된 노래를 확인하는 테이블 입니다.(임시로 장르 "가요" 만 출력)</small></h2>
                 </div>
                 
                 <table id="data-table-command" class="table table-striped table-vmiddle">
@@ -114,11 +114,11 @@
                         <tr>
                             <td><%= song.id %></td>
                             <td><%= song.title %></td>
-                            <td><%= song.artist %></td>
+                            <td><%= song.artist_num %></td>
                             <td><%= song.lowkey %></td>
                             <td><%= song.highkey %></td>
-                            <td><% if song.tjnum.length < 10 %><%= song.tjnum %><% else %><% end %></td>
-                            <td><% if song.gininum.length < 10 %><%= song.gininum %><% else %><% end %></td>
+                            <td><% if song.song_tjnum != nil %><%= song.tjnum %><% else %><% end %></td>
+                            <td><%= song.song_num %></td>
                         </tr>
                         <% end %>
                     </tbody>
@@ -152,12 +152,12 @@
                                 <form action="/song/song_num_save/<%= miss.id %>" method="POST">
                                 <td><%= miss.id %></td>
                                 <td><%= miss.title %></td>
-                                <th><%= miss.artist %></th>
+                                <th><%= miss.artist_num %></th>
                                 
-                                <% if miss.tjnum.length > 10 %>
-                                    <td><a href="<%= miss.tjnum %>" target="_blank" class="btn bgm-green waves-effect">노래방 찾기!</a></td>
+                                <% if miss.song_tjnum.nil? %>
+                                    <td><a href="<%= miss.song_tjnum %>" target="_blank" class="btn bgm-green waves-effect">노래방 찾기!</a></td>
                                 <% else %>
-                                    <td><%= miss.tjnum %></td>
+                                    <td><%= miss.song_tjnum %></td>
                                 <% end %>
                                 <th style="width:200px;">
                                     <div class="input-group fg-float">
@@ -168,12 +168,7 @@
                                         </div>
                                     </div>
                                 </th>
-                                
-                                <% if miss.gininum.length > 10 %>
-                                    <td><a href="<%= miss.gininum %>" target="_blank" class="btn bgm-teal waves-effect">지니 찾기!</a></td>
-                                <% else %>
-                                    <td><%= miss.gininum %></td>
-                                <% end %>
+                                <td><%= miss.song_num %></td>
                                 <th style="width:200px;">
                                     <div class="input-group fg-float">
                                         <span class="input-group-addon"><i class="zmdi zmdi-search"></i></span>
@@ -210,12 +205,12 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <% Song.all.each do |song| %>
+                        <% @song.each do |song| %>
                         <tr>
                             <td><%= song.song_num %></td>
                             <td><%= song.title %></td>
-                            <td><%= Album.where(artist_num: song.artist_num).take.artist_name %></td>
-                            <td><%= Album.where(artist_num: song.artist_num).take.title %></td>
+                            <td><%= Album.find(song.album_id).artist_name %></td>
+                            <td><%= Album.find(song.album_id).title %></td>
                         </tr>
                         <% end %>
                     </tbody>

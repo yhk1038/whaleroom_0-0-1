@@ -52,7 +52,8 @@ class AdminController < ApplicationController
   end
   
   def songs_info
-    @song = Song.all
+    # @song = Song.all
+    @song = Song.where(ganre1: "가요").all
     @top100 = DailyTjPopularRank.all
     @mod_song = Song.find(params[:mod]) unless params[:mod] == nil
     ### 노래방 번호 또는 지니뮤직 노래번호가 입력되지 않은 노래는
@@ -60,7 +61,7 @@ class AdminController < ApplicationController
     ### 저장된 링크를 버튼으로 출력하여 이동 후 찾아서 저장하도록 한다.
       @song_miss = Array.new
       @song.each do |song|
-        if song.tjnum.length > 10 || song.gininum.length > 10
+        if song.song_tjnum == nil
           @song_miss << song
         end
       end

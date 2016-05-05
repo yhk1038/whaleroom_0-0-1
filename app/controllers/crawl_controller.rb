@@ -263,4 +263,32 @@ class CrawlController < ApplicationController
     render layout: false
     puts "요청하신 크롤링이 종료되었습니다."
   end
+  
+  
+  def songs_rematch_for_correct_album
+    
+    @song = Song.all
+    unmathed_song = Array.new
+    
+    @song.each do |song|                                                # 일단 노래를 다 돌린다.
+      if Album.where(id: song.album_id).count == 0                      # 이 노래가 앨범을 못찾고있는지?
+        unmathed_song << song                                               # 그럼 문제있는놈.
+      else                                                              # 앨범찾으면 1차 통과.
+      
+        if Album.find(song.album_id).album_num != song.album_num        # 찾은 앨범이 안맞는 앨범인지?
+          unmathed_song << song                                             # 그럼 문제있는놈.
+        end                                                             # 끝
+      
+      end
+    end
+    
+    i = 1
+    unmathed_song.each do |x|
+      x.album_id = Album.where(album_num: x.album_num).take.id
+      x.save
+      i += 1
+    end
+    
+    puts "#{i.to_s}개의 노래가 수정되었습니다"
+  end
 end
