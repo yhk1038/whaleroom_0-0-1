@@ -13,11 +13,15 @@ class GoraeController < ApplicationController
     #@bg_img = "http://i.blogs.es/70ab15/karaoke-apps-i1/650_1200.jpg"
 
     # 로그인 되있으면 main2로 가고 로그인 안되있으면 sign_in으로
-    if user_signed_in?
-      redirect_to '/gorae/main2'
-    else
-      redirect_to '/users/sign_in'
-    end
+
+    # test 용 entering page 보기
+    # view/devise/sessions/new.html.erb 에다가 entering 패이지를 옴기새요
+
+    # if user_signed_in?
+    #   redirect_to '/gorae/main2'
+    # else
+    #   redirect_to '/users/sign_in'
+    # end
   end
 
   def main
@@ -36,30 +40,30 @@ class GoraeController < ApplicationController
 
     render layout: "../gorae_layouts/application.html.erb"
   end
-  
+
   def search
-    if params[:query].nil? 
+    if params[:query].nil?
       @query = "검색어를 찾을 수 없습니다."
     else
       @query = "검색어를 찾을 수 없습니다." if params[:query].length == 0
       @query = params[:query] if params[:query].length != 0
     end
-    
+
     render layout: "../gorae_layouts/application.html.erb"
   end
-  
+
   def rank
-    
+
     render layout: "../gorae_layouts/application.html.erb"
   end
-  
+
   def recommendation
     @action = params[:action]
     render layout: "../gorae_layouts/application.html.erb"
   end
-  
+
   def mylist
-    
+
     render layout: "../gorae_layouts/application.html.erb"
   end
 end

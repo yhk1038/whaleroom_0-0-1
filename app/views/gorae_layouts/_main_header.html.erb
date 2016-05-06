@@ -31,7 +31,7 @@
                     <span class="highlight"></span>
                 </li>
             </ul>
-            
+
             <!--서치 폼-->
             <form accept-charset="UTF-8" action="/gorae/search" id="search-form" method="get">
                 <div class="input-wrapper">
@@ -39,7 +39,7 @@
                     <span id="search-icon"></span>
                 </div>
             </form>
-        
+
             <div id="gnb-right-menu" class="right-menu">
                 <div class="menu partner ">
                     <img class="thumbnail partner" src='' width="30" height="30" onerror="utils.loadDefaultImg(this, 'thumb');">
@@ -53,7 +53,7 @@
                             <span class="movie-partner-btn">음악친구 설정하기</span>
                         </div>
                         <p class="desc prevent-delete">
-                            
+
                         </p>
                         <p class="desc induce-register">
                             무비파트너를 설정하세요.<br>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="menu my">
                     <a href="/v2/users/mHLmUJXckMA1" class="name">
-                        노혜빈
+                        <%= current_user.name %>
                         <img class="thumbnail" src="https://d12hfz37g51hrt.cloudfront.net/assets/default/user/photo_small-eb39055bd595b4f8b1a0d54e41ecf088.jpg" width="30" height="30" onerror="utils.loadDefaultImg(this, 'thumb');">
                     </a>
                     <span class="highlight"></span>
@@ -86,7 +86,7 @@
                                 <a href="#" class="setting">설정</a>
                             </li>
                             <li>
-                                <a href="/logout">로그아웃</a>
+                                <a href="/users/sign_out">로그아웃</a>
                             </li>
                         </ul>
                     </div>
