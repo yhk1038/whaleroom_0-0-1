@@ -63,6 +63,8 @@ ActiveRecord::Schema.define(version: 20160503204836) do
     t.string   "ganre2"
     t.string   "runtime"
     t.text     "lyrics"
+    t.string   "songwriter"
+    t.string   "composer"
     t.integer  "artist_num"
     t.integer  "album_num"
     t.text     "artist_photo"
