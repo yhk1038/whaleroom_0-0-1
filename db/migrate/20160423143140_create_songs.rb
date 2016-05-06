@@ -11,6 +11,8 @@ class CreateSongs < ActiveRecord::Migration
       t.string  :ganre2         # =>장르2
       t.string  :runtime        # =>재생시간
       t.text    :lyrics         # =>가사
+      t.string  :songwriter     # =>작사
+      t.string  :composer       # =>작곡
       
       # 음원 정보(참조)
       t.integer :artist_num     # =>아티스트 번호(Default : 팀 단위)
