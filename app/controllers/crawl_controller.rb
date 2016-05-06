@@ -63,8 +63,8 @@ class CrawlController < ApplicationController
     if Song.last == nil
       @start_num = 79999991   # 예제) 82425426 번은 악동뮤지션 200% 곡의 넘버임
     else
-      @start_num = 79999991
-      # @start_num = Song.last.song_num + 1
+      # @start_num = 79999991
+      @start_num = Song.last.song_num + 1
     end
     last_saved_song_count = Song.count
     
