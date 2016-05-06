@@ -58,7 +58,7 @@
                                 <div class="input-group fg-float">
                                     <span class="input-group-addon"><i class="zmdi zmdi-account"></i></span>
                                     <div class="fg-line">
-                                        <input type="text" name="artist" class="form-control" value="<%= @mod_song.artist if params[:mod] != nil %>">
+                                        <input type="text" name="artist" class="form-control" value="<%= @mod_song.artist_num if params[:mod] != nil %>">
                                         <label class="fg-label" style="color:#fff;">아티스트</label>
                                     </div>
                                 </div>
@@ -101,11 +101,11 @@
                         <tr>
                             <th data-column-id="id" data-type="numeric" data-order="desc">ID</th>
                             <th data-column-id="sender">Title</th>
-                            <th data-column-id="received">Artist</th>
+                            <th data-column-id="artist">Artist</th>
                             <th data-column-id="lowkey">LowKey</th>
                             <th data-column-id="highkey">HighKey</th>
-                            <th data-column-id="tjnum" data-formatter="tjNum" data-sortable="false">tjNum</th>
-                            <th data-column-id="gininum" data-formatter="giniNum" data-sortable="false">giniNum</th>
+                            <th data-column-id="song_tjnum" data-formatter="songtjNum" data-sortable="false">songtjNum</th>
+                            <th data-column-id="song_num" data-formatter="songNum" data-sortable="false">songNum</th>
                             <th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
                         </tr>
                     </thead>
@@ -114,10 +114,10 @@
                         <tr>
                             <td><%= song.id %></td>
                             <td><%= song.title %></td>
-                            <td><%= song.artist_num %></td>
+                            <td><%= Album.find(song.album_id).artist_name %></td>
                             <td><%= song.lowkey %></td>
                             <td><%= song.highkey %></td>
-                            <td><% if song.song_tjnum != nil %><%= song.tjnum %><% else %><% end %></td>
+                            <td><% if song.song_tjnum != nil %><%= song.song_tjnum %><% else %><% end %></td>
                             <td><%= song.song_num %></td>
                         </tr>
                         <% end %>
@@ -188,34 +188,6 @@
                 </div>
             </div>
             
-            <!--크롤러 입-출력 Table-->
-            <div class="card">
-                <div class="card-header">
-                    <h2>Selection Example <small>Ensure that the data attribute [data-identifier="true"] is set on one column header.</small></h2>
-                </div>
-                
-                <table id="data-table-basic" class="table table-striped table-vmiddle">
-                    <thead>
-                        <tr>
-                            <th data-column-id="song_rank" data-type="numeric" data-order="asc">곡번호</th>
-                            <th data-column-id="song_num">곡 제목</th>
-                            <th data-column-id="song_title" data-order="desc">아티스트</th>
-                            <th data-column-id="song_singer" data-order="desc">앨범제목</th>
-                            <th data-column-id="commands" data-formatter="commands" data-sortable="false">Commands</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <% @song.each do |song| %>
-                        <tr>
-                            <td><%= song.song_num %></td>
-                            <td><%= song.title %></td>
-                            <td><%= Album.find(song.album_id).artist_name %></td>
-                            <td><%= Album.find(song.album_id).title %></td>
-                        </tr>
-                        <% end %>
-                    </tbody>
-                </table>
-            </div>
             
             <!--인기Top100 입-출력 Table-->
             <div class="card">
