@@ -82,7 +82,10 @@ class CrawlController < ApplicationController
     
     num = @start_num
     loop do
-      next if Song.where(song_num: num).take.present?
+      if Song.where(song_num: num).take.present?
+        num += 1
+        next
+      end
       
       # 타겟 문서 가져오기(속칭 긁어오기 또는 크롤링)
       uri = URI("http://www.genie.co.kr/detail/songInfo?xgnm=#{num}")   # 크롤러가 접속하게 될 주소.
