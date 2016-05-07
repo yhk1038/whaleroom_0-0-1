@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'omniauth-oauth2'
 gem 'omniauth-facebook'
 gem 'awesome_print'
 gem 'seed_dump'

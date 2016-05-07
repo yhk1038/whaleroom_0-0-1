@@ -15,7 +15,15 @@ Devise.setup do |config|
   config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
 
   config.omniauth :facebook, "781195762014960", "8fdd8091ca6900a2109746f9831ac035",
-                  callback_url: "http://localhost:3000/"
+  scope: 'email', info_fields: 'email, name,first_name, last_name, gender'
+                            # scope: 'email,name', info_fields: 'email,name'
+                            # callback_url: "/users/auth/facebook/callback"
+
+  # add omniauth.rb (below contents)
+  # Rails.application.config.middleware.use OmniAuth::Builder do
+  #   provider :facebook, "781195762014960", "8fdd8091ca6900a2109746f9831ac035"
+  # end
+
 
 
   # Configure the class responsible to send e-mails.

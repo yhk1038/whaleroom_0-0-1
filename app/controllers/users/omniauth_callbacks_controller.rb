@@ -2,20 +2,16 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     def facebook
         # You need to implement the method below in your model (e.g. app/models/user.rb)
         @user = User.from_omniauth(request.env["omniauth.auth"])
-
-        if @user.persisted? # 유저가 존재하면
+        if @user.persisted? # 이미 페이스북 아이디로 로그인한 적이 있는 경우
             sign_in_and_redirect @user, :event => :authentication #this will throw if @user is not activated
             set_flash_message(:notice, :success, :kind => "Facebook") if is_navigational_format?
-            redirect_to '/gorae/main2'
-        else # 유저가 없으면 다시 회원가입 페이지로 ~~~
+        else # 페이스북을 처음 접속한 유저를 가입시킨다.
             session["devise.facebook_data"] = request.env["omniauth.auth"]
-            # redirect_to '/gorae/main2'
             redirect_to new_user_registration_url
         end
     end
 
     def failure
-        puts "한글\n\n\n\n\n"
         redirect_to root_path
     end
     # You should configure your model like this:
