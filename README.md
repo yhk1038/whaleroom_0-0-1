@@ -13,5 +13,5 @@
 # Welcom to GoraeBang!
 
 ### Todo
-> .... <br/>
-> .... <br/>
+> Tutorial Page to main page <br/>
+> Login <br/>
