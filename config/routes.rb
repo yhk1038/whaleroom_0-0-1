@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     get 'crawl/tj_monthly_new'
     get 'crawl/tj_monthly_popular'
     get 'crawl/tj_daily_popular'
+    get 'crawl/tj_linker'
 
     # root :to => redirect('/users/sign_in')
 
