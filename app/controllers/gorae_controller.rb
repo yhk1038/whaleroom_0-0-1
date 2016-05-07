@@ -17,11 +17,11 @@ class GoraeController < ApplicationController
     # test 용 entering page 보기
     # view/devise/sessions/new.html.erb 에다가 entering 패이지를 옴기새요
 
-    # if user_signed_in?
-    #   redirect_to '/gorae/main2'
-    # else
-    #   redirect_to '/users/sign_in'
-    # end
+    if user_signed_in?
+      redirect_to '/gorae/main2'
+    else
+      redirect_to '/users/sign_in'
+    end
   end
 
   def main
