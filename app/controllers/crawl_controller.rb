@@ -76,6 +76,10 @@ class CrawlController < ApplicationController
       how_many_songs_do_you_want = params[:id].to_i     # 지정된 갯수대로 크롤링(속도: 100여개/30초, 200여개/분, 2천여개/10분)
     end
     
+    if params[:start_at] != nil
+      @start_num = params[:start_at].to_i
+    end
+    
     @must_break_id_limit_count = last_saved_song_count + how_many_songs_do_you_want
     # @must_break_id_limit_count = last_saved_song_count + how_many_songs_do_you_want
     #-----------------------------------------------------------------------------------------------------
@@ -243,28 +247,6 @@ class CrawlController < ApplicationController
       break if num >= 83525426
       num += 1
     end
-    
-    
-    
-    
-    
-    
-    
-    
-    
-            # @result100  = html_doc.css("table.board_type1//tr:nth-child(101)") # 100위에 해당하는 한 행을 잘 뽑아오는가. => 원하는 크롤링 범위의 처음과 끝이 규칙을 가지고 잘 파싱됨을 확인.
-    
-    # 규칙성을 가진 한 주기(여기서는 순위별로 한개의 행)를 반복문에 넣어 전부 파싱.
-            # (1..100).to_a.each do |ii|
-            #   i = ii.to_i
-              
-            #   # 주석은 코드리뷰를 위한 과거형 코드
-            #   @result_0    = html_doc.css("table.board_type1//tr:nth-child(#{i+1})")    # @result   = html_doc.css("table.board_type1").to_s
-            #   eval("@result#{i}_1 = @result_0.css(\"tr//td:nth-child(1)\").inner_html") # a_rank    = result.css("tr//td:nth-child(1)").inner_html  # a_rank = eval("@result#{i}_1")
-            #   eval("@result#{i}_2 = @result_0.css(\"tr//td:nth-child(2)\").inner_html") # b_songNum = result.css("tr//td:nth-child(2)").inner_html  # b_songNum = eval("@result#{i}_2")
-            #   eval("@result#{i}_3 = @result_0.css(\"tr//td:nth-child(3)\").inner_html") # c_title   = result.css("tr//td:nth-child(3)").inner_html  # c_title = eval("@result#{i}_3")
-            #   eval("@result#{i}_4 = @result_0.css(\"tr//td:nth-child(4)\").inner_html") # d_songBy  = result.css("tr//td:nth-child(4)").inner_html  # d_songBy = eval("@result#{i}_4")
-            # end
     
     # Start debugger
       @message = how_many_songs_do_you_want.to_s + "개 저장완료! 확인하셈!"
@@ -662,6 +644,8 @@ class CrawlController < ApplicationController
     
     @query = Array.new
     
+    str = "하늘바라기 (Feat. 하림)"
+    @query = str.gsub('()','')
     
     strText = @query
     "http://www.tjmedia.co.kr/tjsong/song_search_list.asp?strType=0&strText=#{strText}&strCond=0&strSize01=100&strSize02=15&strSize03=15&strSize04=15&strSize05=15"
