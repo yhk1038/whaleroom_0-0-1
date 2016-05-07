@@ -50,7 +50,7 @@
     <!-- 부가적인 테마 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <%= stylesheet_link_tag params[:controller] %>
+    <%= stylesheet_link_tag "gorae.css" %>
 
     <link href="../assets/stylesheets/gorae.css" rel="stylesheet">
 
@@ -64,7 +64,7 @@
     <link href='https://fonts.googleapis.com/earlyaccess/nanumgothic.css' rel='stylesheet' type='text/css'>
 
 </head>
-<body style="/*background-image:url(<%#= @bgurl %>);*/ font-family: 'KoPub Dotum'; font-style: normal; background-image:url(<%= @bg_img %>); background-size:cover; height:100%; padding-top:50px;">
+<body style="/*background-image:url(<%#= @bgurl %>);*/ font-family: 'KoPub Dotum'; font-style: normal; background-image:url(http://groupon.co.id/images/picpromobig/5f0f5e5f33945135b874349cfbed4fb976429.jpg); background-size:cover; height:100%; padding-top:50px;">
     <div style="background: rgba(0, 0, 0, 0.5); height:100%;">
 
         <%= yield %>
